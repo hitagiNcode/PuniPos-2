@@ -12,7 +12,6 @@ namespace PuniPos_2
 {
     public partial class Form1 : Form
     {
-
         public List<Order> OrderList;
 
         public Form1()
@@ -35,10 +34,12 @@ namespace PuniPos_2
         public void AddOrder(int itemId)
         {
 
+            UpdateList();
         }
         public void RemoveOrder(int itemId)
         {
 
+            UpdateList();
         }
 
         private void GetCategory()
@@ -50,14 +51,22 @@ namespace PuniPos_2
         {
 
         }
-        private void CreateItem(int itemId, string name, float price)
+        private void CreateItem(int _itemId, string _name, float _price)
         {
+
+            OrderList.Add(new Order() { itemId = _itemId, name = _name, price = _price });
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             timeLabel.Text = DateTime.Now.ToLongDateString();
+            
+        }
+
+        private void UpdateList()
+        {
+            dataGridView1.DataSource = this.OrderList;
         }
     }
 }
