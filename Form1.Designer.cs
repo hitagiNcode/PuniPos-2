@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.timeLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,8 +52,8 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -75,7 +76,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PuniPos_2.Properties.Resources.PuniposLogo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1, -1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
             this.pictureBox1.Name = "pictureBox1";
@@ -85,18 +86,18 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label1
+            // timeLabel
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label1.Location = new System.Drawing.Point(708, 10);
-            this.label1.Margin = new System.Windows.Forms.Padding(1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Perşembe, 29 Ekim 2020, 17:41";
+            this.timeLabel.AutoSize = true;
+            this.timeLabel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.timeLabel.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.timeLabel.Location = new System.Drawing.Point(790, 0);
+            this.timeLabel.Margin = new System.Windows.Forms.Padding(1);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(94, 15);
+            this.timeLabel.TabIndex = 1;
+            this.timeLabel.Text = "1 kasım 2020 salı";
             // 
             // button1
             // 
@@ -195,7 +196,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(105, 37);
             this.button8.TabIndex = 9;
-            this.button8.Text = "CocaCola Light";
+            this.button8.Text = "Ayran";
             this.button8.UseVisualStyleBackColor = false;
             // 
             // button9
@@ -209,7 +210,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(105, 37);
             this.button9.TabIndex = 10;
-            this.button9.Text = "CocaCola Zero";
+            this.button9.Text = "Siyah Çay";
             this.button9.UseVisualStyleBackColor = false;
             // 
             // button10
@@ -378,17 +379,6 @@
             this.panel1.Size = new System.Drawing.Size(312, 37);
             this.panel1.TabIndex = 22;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label2.Location = new System.Drawing.Point(3, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Masa: 42B";
-            // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -400,6 +390,17 @@
             this.label3.Size = new System.Drawing.Size(108, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Durum: Yeni Sipariş";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.label2.Location = new System.Drawing.Point(3, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Masa: 42B";
             // 
             // dataGridView1
             // 
@@ -625,12 +626,13 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.pictureBox1);
             this.MinimumSize = new System.Drawing.Size(900, 550);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "PuniPos-2";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -643,7 +645,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
