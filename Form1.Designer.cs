@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timeLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -54,7 +53,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
@@ -63,28 +61,21 @@
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Hamburgerler1 = new System.Windows.Forms.Button();
+            this.Hamburgerler2 = new System.Windows.Forms.Button();
+            this.Hamburgerler3 = new System.Windows.Forms.Button();
+            this.Hamburgerler4 = new System.Windows.Forms.Button();
+            this.Hamburgerler5 = new System.Windows.Forms.Button();
+            this.Hamburgerler6 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.listItem1 = new PuniPos_2.ListItem();
+            this.listItem2 = new PuniPos_2.ListItem();
+            this.listItem3 = new PuniPos_2.ListItem();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // timeLabel
             // 
@@ -402,16 +393,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Masa: 42B";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(126, 76);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(312, 294);
-            this.dataGridView1.TabIndex = 23;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -512,77 +493,143 @@
             this.button26.Text = "Multinet";
             this.button26.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // Hamburgerler1
             // 
-            this.button27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button27.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button27.Location = new System.Drawing.Point(553, 75);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(155, 122);
-            this.button27.TabIndex = 32;
-            this.button27.Text = "Tavuk Burger";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button27.UseVisualStyleBackColor = true;
+            this.Hamburgerler1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler1.Location = new System.Drawing.Point(553, 75);
+            this.Hamburgerler1.Name = "Hamburgerler1";
+            this.Hamburgerler1.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler1.TabIndex = 32;
+            this.Hamburgerler1.Text = "Tavuk Burger";
+            this.Hamburgerler1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler1.UseVisualStyleBackColor = true;
+            this.Hamburgerler1.Click += new System.EventHandler(this.Hamburgerler1_Click);
             // 
-            // button28
+            // Hamburgerler2
             // 
-            this.button28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button28.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button28.Location = new System.Drawing.Point(717, 75);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(155, 122);
-            this.button28.TabIndex = 33;
-            this.button28.Text = "Et Burger";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button28.UseVisualStyleBackColor = true;
+            this.Hamburgerler2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler2.Location = new System.Drawing.Point(717, 75);
+            this.Hamburgerler2.Name = "Hamburgerler2";
+            this.Hamburgerler2.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler2.TabIndex = 33;
+            this.Hamburgerler2.Text = "Et Burger";
+            this.Hamburgerler2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler2.UseVisualStyleBackColor = true;
             // 
-            // button29
+            // Hamburgerler3
             // 
-            this.button29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button29.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button29.Location = new System.Drawing.Point(553, 203);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(155, 122);
-            this.button29.TabIndex = 34;
-            this.button29.Text = "Vejeteryan Burger";
-            this.button29.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button29.UseVisualStyleBackColor = true;
+            this.Hamburgerler3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler3.Location = new System.Drawing.Point(553, 203);
+            this.Hamburgerler3.Name = "Hamburgerler3";
+            this.Hamburgerler3.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler3.TabIndex = 34;
+            this.Hamburgerler3.Text = "Vejeteryan Burger";
+            this.Hamburgerler3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler3.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // Hamburgerler4
             // 
-            this.button30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button30.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button30.Location = new System.Drawing.Point(717, 203);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(155, 122);
-            this.button30.TabIndex = 35;
-            this.button30.Text = "Balık Burger";
-            this.button30.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button30.UseVisualStyleBackColor = true;
+            this.Hamburgerler4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler4.Location = new System.Drawing.Point(717, 203);
+            this.Hamburgerler4.Name = "Hamburgerler4";
+            this.Hamburgerler4.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler4.TabIndex = 35;
+            this.Hamburgerler4.Text = "Balık Burger";
+            this.Hamburgerler4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler4.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // Hamburgerler5
             // 
-            this.button31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button31.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button31.Location = new System.Drawing.Point(553, 331);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(155, 122);
-            this.button31.TabIndex = 36;
-            this.button31.Text = "Cheese Burger";
-            this.button31.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button31.UseVisualStyleBackColor = true;
+            this.Hamburgerler5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler5.Location = new System.Drawing.Point(553, 331);
+            this.Hamburgerler5.Name = "Hamburgerler5";
+            this.Hamburgerler5.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler5.TabIndex = 36;
+            this.Hamburgerler5.Text = "Cheese Burger";
+            this.Hamburgerler5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler5.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // Hamburgerler6
             // 
-            this.button32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button32.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button32.Location = new System.Drawing.Point(717, 331);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(155, 122);
-            this.button32.TabIndex = 37;
-            this.button32.Text = "Hawaii Burger";
-            this.button32.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button32.UseVisualStyleBackColor = true;
+            this.Hamburgerler6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler6.Location = new System.Drawing.Point(717, 331);
+            this.Hamburgerler6.Name = "Hamburgerler6";
+            this.Hamburgerler6.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler6.TabIndex = 37;
+            this.Hamburgerler6.Text = "Hawaii Burger";
+            this.Hamburgerler6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler6.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.flowLayoutPanel1.Controls.Add(this.listItem1);
+            this.flowLayoutPanel1.Controls.Add(this.listItem2);
+            this.flowLayoutPanel1.Controls.Add(this.listItem3);
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 75);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(313, 295);
+            this.flowLayoutPanel1.TabIndex = 38;
+            // 
+            // listItem1
+            // 
+            this.listItem1.AutoSize = true;
+            this.listItem1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.listItem1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.listItem1.Location = new System.Drawing.Point(3, 3);
+            this.listItem1.Name = "listItem1";
+            this.listItem1.Price = 12F;
+            this.listItem1.Quantity = 3;
+            this.listItem1.Size = new System.Drawing.Size(306, 28);
+            this.listItem1.TabIndex = 0;
+            this.listItem1.Title = "Empty title";
+            // 
+            // listItem2
+            // 
+            this.listItem2.AutoSize = true;
+            this.listItem2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.listItem2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.listItem2.Location = new System.Drawing.Point(3, 37);
+            this.listItem2.Name = "listItem2";
+            this.listItem2.Price = 12F;
+            this.listItem2.Quantity = 3;
+            this.listItem2.Size = new System.Drawing.Size(306, 28);
+            this.listItem2.TabIndex = 1;
+            this.listItem2.Title = "Empty title";
+            // 
+            // listItem3
+            // 
+            this.listItem3.AutoSize = true;
+            this.listItem3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.listItem3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.listItem3.Location = new System.Drawing.Point(3, 71);
+            this.listItem3.Name = "listItem3";
+            this.listItem3.Price = 12F;
+            this.listItem3.Quantity = 3;
+            this.listItem3.Size = new System.Drawing.Size(306, 28);
+            this.listItem3.TabIndex = 2;
+            this.listItem3.Title = "Empty title";
             // 
             // Form1
             // 
@@ -590,12 +637,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(884, 511);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button27);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.Hamburgerler6);
+            this.Controls.Add(this.Hamburgerler5);
+            this.Controls.Add(this.Hamburgerler4);
+            this.Controls.Add(this.Hamburgerler3);
+            this.Controls.Add(this.Hamburgerler2);
+            this.Controls.Add(this.Hamburgerler1);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
@@ -604,7 +652,6 @@
             this.Controls.Add(this.button21);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
@@ -633,10 +680,11 @@
             this.ShowIcon = false;
             this.Text = "PuniPos-2";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -669,7 +717,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button21;
@@ -678,12 +725,16 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button Hamburgerler1;
+        private System.Windows.Forms.Button Hamburgerler2;
+        private System.Windows.Forms.Button Hamburgerler3;
+        private System.Windows.Forms.Button Hamburgerler4;
+        private System.Windows.Forms.Button Hamburgerler5;
+        private System.Windows.Forms.Button Hamburgerler6;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private ListItem listItem1;
+        private ListItem listItem2;
+        private ListItem listItem3;
     }
 }
 

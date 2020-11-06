@@ -12,12 +12,13 @@ namespace PuniPos_2
 {
     public partial class Form1 : Form
     {
-        public List<Order> OrderList;
+        //public List<Order> OrderList;
+        
 
         public Form1()
         {
             
-            OrderList = new List<Order>();
+            //OrderList = new List<Order>();
                         InitializeComponent();
         }
 
@@ -31,17 +32,6 @@ namespace PuniPos_2
 
         }
 
-        public void AddOrder(int itemId)
-        {
-
-            UpdateList();
-        }
-        public void RemoveOrder(int itemId)
-        {
-
-            UpdateList();
-        }
-
         private void GetCategory()
         {
 
@@ -51,11 +41,17 @@ namespace PuniPos_2
         {
 
         }
+
         private void CreateItem(int _itemId, string _name, float _price)
         {
 
-            OrderList.Add(new Order() { itemId = _itemId, name = _name, price = _price });
+            //OrderList.Add(new Order() { itemId = _itemId, name = _name, price = _price });
+            UpdateList();
+        }
+        private void RemoveOrderFromList(int itemId)
+        {
 
+            UpdateList();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,7 +62,12 @@ namespace PuniPos_2
 
         private void UpdateList()
         {
-            dataGridView1.DataSource = this.OrderList;
+            //dataGridView1.DataSource = this.OrderList;
+        }
+
+        private void Hamburgerler1_Click(object sender, EventArgs e)
+        {
+            //CreateItem(01, "Tavuk Burger", 19.30f);
         }
     }
 }
