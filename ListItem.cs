@@ -39,7 +39,7 @@ namespace PuniPos_2
         public float Price
         {
             get { return _price; }
-            set { _price = value; PriceLabel.Text = _price.ToString(); }
+            set { _price = value; PriceLabel.Text = _price.ToString() + " TL"; }
         }
     }
 }

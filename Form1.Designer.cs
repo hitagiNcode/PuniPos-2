@@ -70,8 +70,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.listItem1 = new PuniPos_2.ListItem();
-            this.listItem2 = new PuniPos_2.ListItem();
-            this.listItem3 = new PuniPos_2.ListItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -584,8 +582,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
             this.flowLayoutPanel1.Controls.Add(this.listItem1);
-            this.flowLayoutPanel1.Controls.Add(this.listItem2);
-            this.flowLayoutPanel1.Controls.Add(this.listItem3);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 75);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -594,42 +590,15 @@
             // 
             // listItem1
             // 
-            this.listItem1.AutoSize = true;
             this.listItem1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.listItem1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.listItem1.Location = new System.Drawing.Point(3, 3);
             this.listItem1.Name = "listItem1";
             this.listItem1.Price = 12F;
             this.listItem1.Quantity = 3;
-            this.listItem1.Size = new System.Drawing.Size(306, 28);
+            this.listItem1.Size = new System.Drawing.Size(309, 23);
             this.listItem1.TabIndex = 0;
             this.listItem1.Title = "Empty title";
-            // 
-            // listItem2
-            // 
-            this.listItem2.AutoSize = true;
-            this.listItem2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.listItem2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.listItem2.Location = new System.Drawing.Point(3, 37);
-            this.listItem2.Name = "listItem2";
-            this.listItem2.Price = 12F;
-            this.listItem2.Quantity = 3;
-            this.listItem2.Size = new System.Drawing.Size(306, 28);
-            this.listItem2.TabIndex = 1;
-            this.listItem2.Title = "Empty title";
-            // 
-            // listItem3
-            // 
-            this.listItem3.AutoSize = true;
-            this.listItem3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.listItem3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.listItem3.Location = new System.Drawing.Point(3, 71);
-            this.listItem3.Name = "listItem3";
-            this.listItem3.Price = 12F;
-            this.listItem3.Quantity = 3;
-            this.listItem3.Size = new System.Drawing.Size(306, 28);
-            this.listItem3.TabIndex = 2;
-            this.listItem3.Title = "Empty title";
             // 
             // Form1
             // 
@@ -684,7 +653,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -733,8 +701,6 @@
         private System.Windows.Forms.Button Hamburgerler6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private ListItem listItem1;
-        private ListItem listItem2;
-        private ListItem listItem3;
     }
 }
 

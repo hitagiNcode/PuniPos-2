@@ -13,7 +13,7 @@ namespace PuniPos_2
     public partial class Form1 : Form
     {
         //public List<Order> OrderList;
-        
+        public List<ListItem> orderList;
 
         public Form1()
         {
@@ -32,19 +32,10 @@ namespace PuniPos_2
 
         }
 
-        private void GetCategory()
+
+        private void CreateItem(int _itemQuantity, string _name, float _price)
         {
-
-        }
-
-        private void CreateCategory()
-        {
-
-        }
-
-        private void CreateItem(int _itemId, string _name, float _price)
-        {
-
+            orderList.Add(new ListItem() {Quantity = _itemQuantity, Name = _name, Price = _price});
             //OrderList.Add(new Order() { itemId = _itemId, name = _name, price = _price });
             UpdateList();
         }
@@ -57,16 +48,26 @@ namespace PuniPos_2
         private void Form1_Load(object sender, EventArgs e)
         {
             timeLabel.Text = DateTime.Now.ToLongDateString();
-            
+            orderList = new List<ListItem>();
         }
 
         private void UpdateList()
         {
+            if (flowLayoutPanel1.Controls.Count > 0)
+            {
+                flowLayoutPanel1.Controls.Clear();
+            }
+            else
+            {
+
+                //flowLayoutPanel1.Controls.Add();
+            }
             //dataGridView1.DataSource = this.OrderList;
         }
 
         private void Hamburgerler1_Click(object sender, EventArgs e)
         {
+            
             //CreateItem(01, "Tavuk Burger", 19.30f);
         }
     }
