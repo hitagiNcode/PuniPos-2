@@ -17,7 +17,14 @@ namespace PuniPos_2
             InitializeComponent();
         }
 
-        
+        private int _itemId = 0;
+        [Category("Custom Props")]
+        public int ItemID
+        {
+            get { return _itemId = 0; }
+            set { _itemId = value; }
+        }
+
         private int _quantity = 3;
         [Category("Custom Props")]
         public int Quantity

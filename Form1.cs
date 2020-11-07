@@ -12,14 +12,18 @@ namespace PuniPos_2
 {
     public partial class Form1 : Form
     {
-        //public List<Order> OrderList;
+        
         public List<ListItem> orderList;
 
         public Form1()
         {
-            
-            //OrderList = new List<Order>();
+
                         InitializeComponent();
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timeLabel.Text = DateTime.Now.ToLongDateString();
+            orderList = new List<ListItem>();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -33,10 +37,11 @@ namespace PuniPos_2
         }
 
 
-        private void CreateItem(int _itemQuantity, string _name, float _price)
+        private void CreateItem(int _itemId, int _itemQuantity, string _name, float _price)
         {
-            orderList.Add(new ListItem() {Quantity = _itemQuantity, Name = _name, Price = _price});
-            //OrderList.Add(new Order() { itemId = _itemId, name = _name, price = _price });
+            
+            orderList.Add(new ListItem() {ItemID = _itemId, Quantity = _itemQuantity, Title = _name, Price = _price});
+            
             UpdateList();
         }
         private void RemoveOrderFromList(int itemId)
@@ -45,30 +50,27 @@ namespace PuniPos_2
             UpdateList();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            timeLabel.Text = DateTime.Now.ToLongDateString();
-            orderList = new List<ListItem>();
-        }
-
         private void UpdateList()
         {
             if (flowLayoutPanel1.Controls.Count > 0)
             {
                 flowLayoutPanel1.Controls.Clear();
+                for (int i = 0; i < orderList.Count; i++)
+                {
+                    flowLayoutPanel1.Controls.Add(orderList[i]);
+                }
             }
             else
-            {
-
-                //flowLayoutPanel1.Controls.Add();
+            {      
+             flowLayoutPanel1.Controls.Add(orderList[0]);
             }
-            //dataGridView1.DataSource = this.OrderList;
+           
         }
 
         private void Hamburgerler1_Click(object sender, EventArgs e)
         {
             
-            //CreateItem(01, "Tavuk Burger", 19.30f);
+            CreateItem(1, 01, "Tavuk Burger", 19.30f);
         }
     }
 }

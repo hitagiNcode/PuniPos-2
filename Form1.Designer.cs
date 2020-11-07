@@ -69,10 +69,8 @@
             this.Hamburgerler6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.listItem1 = new PuniPos_2.ListItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -581,24 +579,11 @@
             this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
-            this.flowLayoutPanel1.Controls.Add(this.listItem1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 75);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(313, 295);
             this.flowLayoutPanel1.TabIndex = 38;
-            // 
-            // listItem1
-            // 
-            this.listItem1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.listItem1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.listItem1.Location = new System.Drawing.Point(3, 3);
-            this.listItem1.Name = "listItem1";
-            this.listItem1.Price = 12F;
-            this.listItem1.Quantity = 3;
-            this.listItem1.Size = new System.Drawing.Size(309, 23);
-            this.listItem1.TabIndex = 0;
-            this.listItem1.Title = "Empty title";
             // 
             // Form1
             // 
@@ -652,7 +637,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -700,7 +684,6 @@
         private System.Windows.Forms.Button Hamburgerler5;
         private System.Windows.Forms.Button Hamburgerler6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private ListItem listItem1;
     }
 }
 
