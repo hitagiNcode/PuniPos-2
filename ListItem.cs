@@ -22,7 +22,7 @@ namespace PuniPos_2
         public int ItemID
         {
             get { return _itemId; }
-            set { _itemId = value; }
+            set { _itemId = value; itemid.Text = _itemId.ToString(); }
         }
 
         private int _quantity = 3;
@@ -47,6 +47,11 @@ namespace PuniPos_2
         {
             get { return _price; }
             set { _price = value; PriceLabel.Text = _price.ToString() + " TL"; }
+        }
+
+        private void ListItem_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -39,18 +39,20 @@ namespace PuniPos_2
 
         private void CreateItem(int _itemId, int _itemQuantity, string _name, float _price)
         {
-            if (flowLayoutPanel1.Controls.Count > 0)
+            var item = orderList.Find(x => x.ItemID == _itemId);
+            if (item == null)
             {
-                
-
+                orderList.Add(new ListItem() { ItemID = _itemId, Quantity = _itemQuantity, Title = _name, Price = _price });
             }
             else
             {
-                orderList.Add(new ListItem() { ItemID = _itemId, Quantity = _itemQuantity, Title = _name, Price = _price });
+                item.Quantity++;
             }
 
             UpdateList();
         }
+
+        
         private void RemoveOrderFromList(int itemId)
         {
 
@@ -77,12 +79,14 @@ namespace PuniPos_2
         private void Hamburgerler1_Click(object sender, EventArgs e)
         {
             
-            CreateItem(1, 01, "Tavuk Burger", 19.30f);
+            CreateItem(9101, 01, "Tavuk Burger", 19.30f);
         }
 
         private void Hamburgerler2_Click(object sender, EventArgs e)
         {
-            CreateItem(2, 01, "Et Burger", 22.50f);
+            CreateItem(9102, 01, "Et Burger", 22.50f);
         }
+
+        
     }
 }

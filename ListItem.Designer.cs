@@ -32,6 +32,7 @@
             this.NameLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.PriceLabel = new System.Windows.Forms.Label();
+            this.itemid = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // QuantityLabel
@@ -79,17 +80,30 @@
             this.PriceLabel.TabIndex = 3;
             this.PriceLabel.Text = "TotalPrice";
             // 
+            // itemid
+            // 
+            this.itemid.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.itemid.AutoSize = true;
+            this.itemid.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.itemid.Location = new System.Drawing.Point(214, 0);
+            this.itemid.Name = "itemid";
+            this.itemid.Size = new System.Drawing.Size(19, 17);
+            this.itemid.TabIndex = 4;
+            this.itemid.Text = "Id";
+            // 
             // ListItem
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.itemid);
             this.Controls.Add(this.PriceLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.QuantityLabel);
             this.Name = "ListItem";
             this.Size = new System.Drawing.Size(309, 23);
+            this.Load += new System.EventHandler(this.ListItem_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,5 +115,6 @@
         private System.Windows.Forms.Label NameLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label PriceLabel;
+        private System.Windows.Forms.Label itemid;
     }
 }
