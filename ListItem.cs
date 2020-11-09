@@ -21,7 +21,7 @@ namespace PuniPos_2
         [Category("Custom Props")]
         public int ItemID
         {
-            get { return _itemId = 0; }
+            get { return _itemId; }
             set { _itemId = value; }
         }
 

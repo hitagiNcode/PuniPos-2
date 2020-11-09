@@ -513,6 +513,7 @@
             this.Hamburgerler2.Text = "Et Burger";
             this.Hamburgerler2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Hamburgerler2.UseVisualStyleBackColor = true;
+            this.Hamburgerler2.Click += new System.EventHandler(this.Hamburgerler2_Click);
             // 
             // Hamburgerler3
             // 
