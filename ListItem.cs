@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace PuniPos_2
 {
+    
     public partial class ListItem : UserControl
     {
+
+
+
+
+
+
         public ListItem()
         {
             InitializeComponent();
+            
         }
 
         private int _itemId = 0;
@@ -52,6 +60,39 @@ namespace PuniPos_2
         private void ListItem_Load(object sender, EventArgs e)
         {
             
+           
+        }
+
+        private void ShowMessageBoxToRemoveIt()
+        {
+            if (MessageBox.Show("Siparişi kaldırmak ister misiniz ?", "Sipariş kaldırma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                //Ürünü kaldır
+               
+                
+            }
+            else
+            {
+                //do nothing
+            }
+        }
+
+        private void QuantityLabel_Click(object sender, EventArgs e)
+        {
+          
+            
+        }
+
+
+        private void NameLabel_Click(object sender, EventArgs e)
+        {
+          
+
+        }
+
+        private void PriceLabel_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

@@ -15,20 +15,30 @@ namespace PuniPos_2
         
         public List<ListItem> orderList;
 
+        
+        private void DenemeRemove()
+        {
+            MessageBox.Show("kaldırdık amk");
+        }
+
+
         public Form1()
         {
-
-                        InitializeComponent();
+            
+            InitializeComponent();
+           
         }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             timeLabel.Text = DateTime.Now.ToLongDateString();
             orderList = new List<ListItem>();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Punipos yapım aşamasında", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -53,9 +63,9 @@ namespace PuniPos_2
         }
 
         
-        private void RemoveOrderFromList(int itemId)
+        public void RemoveOrderFromList(int _itemId)
         {
-
+            orderList.RemoveAll(x => x.ItemID == _itemId);
             UpdateList();
         }
 

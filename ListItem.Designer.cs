@@ -46,22 +46,23 @@
             this.QuantityLabel.Size = new System.Drawing.Size(35, 17);
             this.QuantityLabel.TabIndex = 0;
             this.QuantityLabel.Text = "Qun";
+            this.QuantityLabel.Click += new System.EventHandler(this.QuantityLabel_Click);
             // 
             // NameLabel
             // 
             this.NameLabel.AutoSize = true;
             this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.NameLabel.Location = new System.Drawing.Point(55, 0);
+            this.NameLabel.Location = new System.Drawing.Point(38, 0);
             this.NameLabel.Name = "NameLabel";
             this.NameLabel.Size = new System.Drawing.Size(112, 17);
             this.NameLabel.TabIndex = 1;
             this.NameLabel.Text = "OrderItem Name";
+            this.NameLabel.Click += new System.EventHandler(this.NameLabel_Click);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(36, 0);
+            this.label3.Location = new System.Drawing.Point(22, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(1, 0, 3, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 17);
@@ -79,6 +80,7 @@
             this.PriceLabel.Size = new System.Drawing.Size(72, 17);
             this.PriceLabel.TabIndex = 3;
             this.PriceLabel.Text = "TotalPrice";
+            this.PriceLabel.Click += new System.EventHandler(this.PriceLabel_Click);
             // 
             // itemid
             // 
