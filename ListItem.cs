@@ -10,12 +10,9 @@ using System.Windows.Forms;
 
 namespace PuniPos_2
 {
-    
+   
     public partial class ListItem : UserControl
     {
-
-
-
 
 
 
@@ -30,10 +27,10 @@ namespace PuniPos_2
         public int ItemID
         {
             get { return _itemId; }
-            set { _itemId = value; itemid.Text = _itemId.ToString(); }
+            set { _itemId = value; }
         }
 
-        private int _quantity = 3;
+        private int _quantity = 0;
         [Category("Custom Props")]
         public int Quantity
         {
@@ -65,10 +62,11 @@ namespace PuniPos_2
 
         private void ShowMessageBoxToRemoveIt()
         {
-            if (MessageBox.Show("Siparişi kaldırmak ister misiniz ?", "Sipariş kaldırma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show(Title + " siparişini kaldırmak ister misiniz ?", "Sipariş kaldırma", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 //Ürünü kaldır
-               
+                Form1 anaForm = (Form1)this.FindForm();
+                anaForm.RemoveOrderFromList(ItemID);
                 
             }
             else
@@ -79,20 +77,20 @@ namespace PuniPos_2
 
         private void QuantityLabel_Click(object sender, EventArgs e)
         {
-          
-            
+            ShowMessageBoxToRemoveIt();
+
         }
 
 
         private void NameLabel_Click(object sender, EventArgs e)
         {
-          
 
+            ShowMessageBoxToRemoveIt();
         }
 
         private void PriceLabel_Click(object sender, EventArgs e)
         {
-           
+            ShowMessageBoxToRemoveIt();
         }
     }
 }

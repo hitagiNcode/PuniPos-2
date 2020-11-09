@@ -15,18 +15,11 @@ namespace PuniPos_2
         
         public List<ListItem> orderList;
 
-        
-        private void DenemeRemove()
-        {
-            MessageBox.Show("kaldırdık amk");
-        }
-
-
         public Form1()
         {
             
             InitializeComponent();
-           
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
