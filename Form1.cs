@@ -40,7 +40,7 @@ namespace PuniPos_2
             {
                 case 1:
                     DeActiveAllPanels();
-
+                    
                     break;
                 case 2:
                     DeActiveAllPanels();
@@ -48,11 +48,13 @@ namespace PuniPos_2
                     break;
                 case 3:
                     DeActiveAllPanels();
-
+                    corbalarPanel.Show();
+                    
                     break;
                 case 4:
                     DeActiveAllPanels();
                     burgersPanel.Show();
+                    
                     break;
                 case 5:
                     DeActiveAllPanels();
@@ -170,12 +172,17 @@ namespace PuniPos_2
             MessageBox.Show("Ana menüye dön.", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void aperatifButton_Click(object sender, EventArgs e)
+        private void corbaButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(3);
+        }
+
+        private void aperatifButton_Click_1(object sender, EventArgs e)
         {
             ShowCategory(1);
         }
 
-        private void hamburgerButton_Click(object sender, EventArgs e)
+        private void hamburgerButton_Click_1(object sender, EventArgs e)
         {
             ShowCategory(4);
         }
