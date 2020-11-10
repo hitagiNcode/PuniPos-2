@@ -40,27 +40,38 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.aperatifButton = new System.Windows.Forms.Button();
+            this.salataButton = new System.Windows.Forms.Button();
+            this.corbaButton = new System.Windows.Forms.Button();
+            this.hamburgerButton = new System.Windows.Forms.Button();
+            this.pizzaButton = new System.Windows.Forms.Button();
+            this.tavukButton = new System.Windows.Forms.Button();
+            this.balikButton = new System.Windows.Forms.Button();
+            this.tatliButton = new System.Windows.Forms.Button();
+            this.drinkButton = new System.Windows.Forms.Button();
+            this.menuButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.totalPrice = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.burgersPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.corbalarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.Hamburgerler1 = new System.Windows.Forms.Button();
             this.Hamburgerler2 = new System.Windows.Forms.Button();
             this.Hamburgerler3 = new System.Windows.Forms.Button();
@@ -68,8 +79,11 @@
             this.Hamburgerler5 = new System.Windows.Forms.Button();
             this.Hamburgerler6 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
+            this.burgersPanel.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
+            this.corbalarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,6 +160,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "Klavye";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -214,145 +229,145 @@
             this.button10.Text = "CocaCola";
             this.button10.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // aperatifButton
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.BackColor = System.Drawing.Color.SandyBrown;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button11.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button11.Location = new System.Drawing.Point(442, 32);
-            this.button11.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(105, 37);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "Aperatifler";
-            this.button11.UseVisualStyleBackColor = false;
+            this.aperatifButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatifButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.aperatifButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatifButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.aperatifButton.Location = new System.Drawing.Point(442, 32);
+            this.aperatifButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.aperatifButton.Name = "aperatifButton";
+            this.aperatifButton.Size = new System.Drawing.Size(105, 37);
+            this.aperatifButton.TabIndex = 12;
+            this.aperatifButton.Text = "Aperatifler";
+            this.aperatifButton.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // salataButton
             // 
-            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button12.BackColor = System.Drawing.Color.SandyBrown;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button12.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button12.Location = new System.Drawing.Point(442, 75);
-            this.button12.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(105, 37);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "Salatalar";
-            this.button12.UseVisualStyleBackColor = false;
+            this.salataButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.salataButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.salataButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.salataButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.salataButton.Location = new System.Drawing.Point(442, 75);
+            this.salataButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.salataButton.Name = "salataButton";
+            this.salataButton.Size = new System.Drawing.Size(105, 37);
+            this.salataButton.TabIndex = 13;
+            this.salataButton.Text = "Salatalar";
+            this.salataButton.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // corbaButton
             // 
-            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button13.BackColor = System.Drawing.Color.SandyBrown;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button13.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button13.Location = new System.Drawing.Point(442, 118);
-            this.button13.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(105, 37);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "Çorbalar";
-            this.button13.UseVisualStyleBackColor = false;
+            this.corbaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corbaButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.corbaButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corbaButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.corbaButton.Location = new System.Drawing.Point(442, 118);
+            this.corbaButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.corbaButton.Name = "corbaButton";
+            this.corbaButton.Size = new System.Drawing.Size(105, 37);
+            this.corbaButton.TabIndex = 14;
+            this.corbaButton.Text = "Çorbalar";
+            this.corbaButton.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // hamburgerButton
             // 
-            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button14.BackColor = System.Drawing.Color.SandyBrown;
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button14.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button14.Location = new System.Drawing.Point(442, 161);
-            this.button14.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(105, 37);
-            this.button14.TabIndex = 15;
-            this.button14.Text = "Hamburgerler";
-            this.button14.UseVisualStyleBackColor = false;
+            this.hamburgerButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.hamburgerButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.hamburgerButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hamburgerButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.hamburgerButton.Location = new System.Drawing.Point(442, 161);
+            this.hamburgerButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.hamburgerButton.Name = "hamburgerButton";
+            this.hamburgerButton.Size = new System.Drawing.Size(105, 37);
+            this.hamburgerButton.TabIndex = 15;
+            this.hamburgerButton.Text = "Hamburgerler";
+            this.hamburgerButton.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // pizzaButton
             // 
-            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button15.BackColor = System.Drawing.Color.SandyBrown;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button15.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button15.Location = new System.Drawing.Point(442, 204);
-            this.button15.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(105, 37);
-            this.button15.TabIndex = 16;
-            this.button15.Text = "Pizzalar";
-            this.button15.UseVisualStyleBackColor = false;
+            this.pizzaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizzaButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.pizzaButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizzaButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.pizzaButton.Location = new System.Drawing.Point(442, 204);
+            this.pizzaButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.pizzaButton.Name = "pizzaButton";
+            this.pizzaButton.Size = new System.Drawing.Size(105, 37);
+            this.pizzaButton.TabIndex = 16;
+            this.pizzaButton.Text = "Pizzalar";
+            this.pizzaButton.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // tavukButton
             // 
-            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button16.BackColor = System.Drawing.Color.SandyBrown;
-            this.button16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button16.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button16.Location = new System.Drawing.Point(442, 247);
-            this.button16.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(105, 37);
-            this.button16.TabIndex = 17;
-            this.button16.Text = "Tavuklar";
-            this.button16.UseVisualStyleBackColor = false;
+            this.tavukButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavukButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.tavukButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavukButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.tavukButton.Location = new System.Drawing.Point(442, 247);
+            this.tavukButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.tavukButton.Name = "tavukButton";
+            this.tavukButton.Size = new System.Drawing.Size(105, 37);
+            this.tavukButton.TabIndex = 17;
+            this.tavukButton.Text = "Tavuklar";
+            this.tavukButton.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // balikButton
             // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.BackColor = System.Drawing.Color.SandyBrown;
-            this.button17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button17.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button17.Location = new System.Drawing.Point(442, 290);
-            this.button17.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(105, 37);
-            this.button17.TabIndex = 18;
-            this.button17.Text = "Balıklar";
-            this.button17.UseVisualStyleBackColor = false;
+            this.balikButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.balikButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.balikButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.balikButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.balikButton.Location = new System.Drawing.Point(442, 290);
+            this.balikButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.balikButton.Name = "balikButton";
+            this.balikButton.Size = new System.Drawing.Size(105, 37);
+            this.balikButton.TabIndex = 18;
+            this.balikButton.Text = "Balıklar";
+            this.balikButton.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // tatliButton
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.SandyBrown;
-            this.button18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button18.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button18.Location = new System.Drawing.Point(442, 333);
-            this.button18.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(105, 37);
-            this.button18.TabIndex = 19;
-            this.button18.Text = "Tatlılar";
-            this.button18.UseVisualStyleBackColor = false;
+            this.tatliButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tatliButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.tatliButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tatliButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.tatliButton.Location = new System.Drawing.Point(442, 333);
+            this.tatliButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.tatliButton.Name = "tatliButton";
+            this.tatliButton.Size = new System.Drawing.Size(105, 37);
+            this.tatliButton.TabIndex = 19;
+            this.tatliButton.Text = "Tatlılar";
+            this.tatliButton.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // drinkButton
             // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button19.BackColor = System.Drawing.Color.SandyBrown;
-            this.button19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button19.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button19.Location = new System.Drawing.Point(442, 376);
-            this.button19.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(105, 37);
-            this.button19.TabIndex = 20;
-            this.button19.Text = "İçecekler";
-            this.button19.UseVisualStyleBackColor = false;
+            this.drinkButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.drinkButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.drinkButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.drinkButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.drinkButton.Location = new System.Drawing.Point(442, 376);
+            this.drinkButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.drinkButton.Name = "drinkButton";
+            this.drinkButton.Size = new System.Drawing.Size(105, 37);
+            this.drinkButton.TabIndex = 20;
+            this.drinkButton.Text = "İçecekler";
+            this.drinkButton.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // menuButton
             // 
-            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button20.BackColor = System.Drawing.Color.SandyBrown;
-            this.button20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button20.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button20.Location = new System.Drawing.Point(442, 419);
-            this.button20.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(105, 37);
-            this.button20.TabIndex = 21;
-            this.button20.Text = "Menu";
-            this.button20.UseVisualStyleBackColor = false;
+            this.menuButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.menuButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menuButton.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.menuButton.Location = new System.Drawing.Point(442, 419);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.menuButton.Name = "menuButton";
+            this.menuButton.Size = new System.Drawing.Size(105, 37);
+            this.menuButton.TabIndex = 21;
+            this.menuButton.Text = "Menu";
+            this.menuButton.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -392,32 +407,33 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(123, 373);
+            this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 17);
             this.label4.TabIndex = 24;
             this.label4.Text = "Tutar:";
             // 
-            // label5
+            // totalPrice
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(398, 373);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 17);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "48.30";
+            this.totalPrice.AutoSize = true;
+            this.totalPrice.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totalPrice.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.totalPrice.ForeColor = System.Drawing.Color.Red;
+            this.totalPrice.Location = new System.Drawing.Point(273, 0);
+            this.totalPrice.Name = "totalPrice";
+            this.totalPrice.Size = new System.Drawing.Size(40, 17);
+            this.totalPrice.TabIndex = 25;
+            this.totalPrice.Text = "48.30";
             // 
             // button21
             // 
             this.button21.BackColor = System.Drawing.SystemColors.Control;
             this.button21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button21.Location = new System.Drawing.Point(126, 393);
-            this.button21.Margin = new System.Windows.Forms.Padding(1, 3, 3, 1);
+            this.button21.Location = new System.Drawing.Point(1, 1);
+            this.button21.Margin = new System.Windows.Forms.Padding(1, 1, 3, 1);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(92, 35);
             this.button21.TabIndex = 26;
@@ -429,8 +445,8 @@
             this.button22.BackColor = System.Drawing.Color.LimeGreen;
             this.button22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button22.Location = new System.Drawing.Point(318, 393);
-            this.button22.Margin = new System.Windows.Forms.Padding(1, 3, 3, 1);
+            this.button22.Location = new System.Drawing.Point(193, 1);
+            this.button22.Margin = new System.Windows.Forms.Padding(1, 1, 3, 1);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(92, 35);
             this.button22.TabIndex = 27;
@@ -442,8 +458,8 @@
             this.button23.BackColor = System.Drawing.Color.Brown;
             this.button23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button23.Location = new System.Drawing.Point(222, 393);
-            this.button23.Margin = new System.Windows.Forms.Padding(1, 3, 3, 1);
+            this.button23.Location = new System.Drawing.Point(97, 1);
+            this.button23.Margin = new System.Windows.Forms.Padding(1, 1, 3, 1);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(92, 35);
             this.button23.TabIndex = 28;
@@ -455,7 +471,7 @@
             this.button24.BackColor = System.Drawing.Color.MediumPurple;
             this.button24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button24.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button24.Location = new System.Drawing.Point(126, 430);
+            this.button24.Location = new System.Drawing.Point(1, 38);
             this.button24.Margin = new System.Windows.Forms.Padding(1, 1, 3, 3);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(92, 35);
@@ -468,7 +484,7 @@
             this.button25.BackColor = System.Drawing.Color.RoyalBlue;
             this.button25.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button25.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button25.Location = new System.Drawing.Point(222, 430);
+            this.button25.Location = new System.Drawing.Point(97, 38);
             this.button25.Margin = new System.Windows.Forms.Padding(1, 1, 3, 3);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(92, 35);
@@ -481,7 +497,7 @@
             this.button26.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button26.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button26.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button26.Location = new System.Drawing.Point(318, 430);
+            this.button26.Location = new System.Drawing.Point(193, 38);
             this.button26.Margin = new System.Windows.Forms.Padding(1, 1, 3, 3);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(92, 35);
@@ -489,11 +505,155 @@
             this.button26.Text = "Multinet";
             this.button26.UseVisualStyleBackColor = false;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 75);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(313, 295);
+            this.flowLayoutPanel1.TabIndex = 38;
+            // 
+            // burgersPanel
+            // 
+            this.burgersPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.burgersPanel.Controls.Add(this.Hamburgerler1);
+            this.burgersPanel.Controls.Add(this.Hamburgerler2);
+            this.burgersPanel.Controls.Add(this.Hamburgerler3);
+            this.burgersPanel.Controls.Add(this.Hamburgerler4);
+            this.burgersPanel.Controls.Add(this.Hamburgerler5);
+            this.burgersPanel.Controls.Add(this.Hamburgerler6);
+            this.burgersPanel.Location = new System.Drawing.Point(553, 75);
+            this.burgersPanel.Name = "burgersPanel";
+            this.burgersPanel.Size = new System.Drawing.Size(331, 381);
+            this.burgersPanel.TabIndex = 39;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.totalPrice);
+            this.panel2.Location = new System.Drawing.Point(126, 376);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(313, 17);
+            this.panel2.TabIndex = 40;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel3.Controls.Add(this.button21);
+            this.flowLayoutPanel3.Controls.Add(this.button23);
+            this.flowLayoutPanel3.Controls.Add(this.button22);
+            this.flowLayoutPanel3.Controls.Add(this.button24);
+            this.flowLayoutPanel3.Controls.Add(this.button25);
+            this.flowLayoutPanel3.Controls.Add(this.button26);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(125, 396);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(310, 75);
+            this.flowLayoutPanel3.TabIndex = 41;
+            // 
+            // corbalarPanel
+            // 
+            this.corbalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corbalarPanel.Controls.Add(this.button11);
+            this.corbalarPanel.Controls.Add(this.button12);
+            this.corbalarPanel.Controls.Add(this.button13);
+            this.corbalarPanel.Controls.Add(this.button14);
+            this.corbalarPanel.Controls.Add(this.button15);
+            this.corbalarPanel.Controls.Add(this.button16);
+            this.corbalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.corbalarPanel.Name = "corbalarPanel";
+            this.corbalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.corbalarPanel.TabIndex = 42;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button11.Image = global::PuniPos_2.Properties.Resources.lokanta_usulu_mercimek_corbasi;
+            this.button11.Location = new System.Drawing.Point(3, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(155, 122);
+            this.button11.TabIndex = 32;
+            this.button11.Text = "Mercimek Çorbası";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button12.Image = global::PuniPos_2.Properties.Resources.yayla;
+            this.button12.Location = new System.Drawing.Point(164, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(155, 122);
+            this.button12.TabIndex = 33;
+            this.button12.Text = "Yayla Çorbası";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button13.Image = global::PuniPos_2.Properties.Resources.kelle;
+            this.button13.Location = new System.Drawing.Point(3, 131);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(155, 122);
+            this.button13.TabIndex = 34;
+            this.button13.Text = "Kellepaça Çorbası";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button14.Image = global::PuniPos_2.Properties.Resources.iskembe;
+            this.button14.Location = new System.Drawing.Point(164, 131);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(155, 122);
+            this.button14.TabIndex = 35;
+            this.button14.Text = "İşkembe Çorbası";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button15.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button15.Image = global::PuniPos_2.Properties.Resources.tavuk_corbasi;
+            this.button15.Location = new System.Drawing.Point(3, 259);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(155, 122);
+            this.button15.TabIndex = 36;
+            this.button15.Text = "Tavuk Çorbası";
+            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button16.Image = global::PuniPos_2.Properties.Resources.tarhanaa;
+            this.button16.Location = new System.Drawing.Point(164, 259);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(155, 122);
+            this.button16.TabIndex = 37;
+            this.button16.Text = "Tarhana Çorbası";
+            this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button16.UseVisualStyleBackColor = true;
+            // 
             // Hamburgerler1
             // 
             this.Hamburgerler1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler1.Location = new System.Drawing.Point(553, 75);
+            this.Hamburgerler1.Image = global::PuniPos_2.Properties.Resources.tavukburger_sandvicv2;
+            this.Hamburgerler1.Location = new System.Drawing.Point(3, 3);
             this.Hamburgerler1.Name = "Hamburgerler1";
             this.Hamburgerler1.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler1.TabIndex = 32;
@@ -506,7 +666,8 @@
             // 
             this.Hamburgerler2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler2.Location = new System.Drawing.Point(717, 75);
+            this.Hamburgerler2.Image = global::PuniPos_2.Properties.Resources.et_burger1529153147_11;
+            this.Hamburgerler2.Location = new System.Drawing.Point(164, 3);
             this.Hamburgerler2.Name = "Hamburgerler2";
             this.Hamburgerler2.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler2.TabIndex = 33;
@@ -519,7 +680,8 @@
             // 
             this.Hamburgerler3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler3.Location = new System.Drawing.Point(553, 203);
+            this.Hamburgerler3.Image = global::PuniPos_2.Properties.Resources.vej;
+            this.Hamburgerler3.Location = new System.Drawing.Point(3, 131);
             this.Hamburgerler3.Name = "Hamburgerler3";
             this.Hamburgerler3.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler3.TabIndex = 34;
@@ -531,7 +693,8 @@
             // 
             this.Hamburgerler4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler4.Location = new System.Drawing.Point(717, 203);
+            this.Hamburgerler4.Image = global::PuniPos_2.Properties.Resources.balik;
+            this.Hamburgerler4.Location = new System.Drawing.Point(164, 131);
             this.Hamburgerler4.Name = "Hamburgerler4";
             this.Hamburgerler4.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler4.TabIndex = 35;
@@ -543,7 +706,8 @@
             // 
             this.Hamburgerler5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler5.Location = new System.Drawing.Point(553, 331);
+            this.Hamburgerler5.Image = global::PuniPos_2.Properties.Resources.Cheeseburger;
+            this.Hamburgerler5.Location = new System.Drawing.Point(3, 259);
             this.Hamburgerler5.Name = "Hamburgerler5";
             this.Hamburgerler5.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler5.TabIndex = 36;
@@ -555,7 +719,8 @@
             // 
             this.Hamburgerler6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Hamburgerler6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler6.Location = new System.Drawing.Point(717, 331);
+            this.Hamburgerler6.Image = global::PuniPos_2.Properties.Resources.v2hawaii;
+            this.Hamburgerler6.Location = new System.Drawing.Point(164, 259);
             this.Hamburgerler6.Name = "Hamburgerler6";
             this.Hamburgerler6.Size = new System.Drawing.Size(155, 122);
             this.Hamburgerler6.TabIndex = 37;
@@ -575,49 +740,28 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(125, 75);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(313, 295);
-            this.flowLayoutPanel1.TabIndex = 38;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.corbalarPanel);
+            this.Controls.Add(this.flowLayoutPanel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.burgersPanel);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.Hamburgerler6);
-            this.Controls.Add(this.Hamburgerler5);
-            this.Controls.Add(this.Hamburgerler4);
-            this.Controls.Add(this.Hamburgerler3);
-            this.Controls.Add(this.Hamburgerler2);
-            this.Controls.Add(this.Hamburgerler1);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.menuButton);
+            this.Controls.Add(this.drinkButton);
+            this.Controls.Add(this.tatliButton);
+            this.Controls.Add(this.balikButton);
+            this.Controls.Add(this.tavukButton);
+            this.Controls.Add(this.pizzaButton);
+            this.Controls.Add(this.hamburgerButton);
+            this.Controls.Add(this.corbaButton);
+            this.Controls.Add(this.salataButton);
+            this.Controls.Add(this.aperatifButton);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -637,6 +781,11 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.burgersPanel.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.corbalarPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -657,21 +806,21 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button aperatifButton;
+        private System.Windows.Forms.Button salataButton;
+        private System.Windows.Forms.Button corbaButton;
+        private System.Windows.Forms.Button hamburgerButton;
+        private System.Windows.Forms.Button pizzaButton;
+        private System.Windows.Forms.Button tavukButton;
+        private System.Windows.Forms.Button balikButton;
+        private System.Windows.Forms.Button tatliButton;
+        private System.Windows.Forms.Button drinkButton;
+        private System.Windows.Forms.Button menuButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label totalPrice;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
@@ -685,6 +834,16 @@
         private System.Windows.Forms.Button Hamburgerler5;
         private System.Windows.Forms.Button Hamburgerler6;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel burgersPanel;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.FlowLayoutPanel corbalarPanel;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
     }
 }
 

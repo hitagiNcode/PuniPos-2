@@ -93,5 +93,53 @@
   <ItemGroup>
     <None Include="Resources\PuniposLogo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\et-burger1529153147_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavukburger-sandvic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavukburger-sandvic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavukburger-sandvicv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\et-burger1529153147_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vej.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheeseburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v2hawaii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lokanta-usulu-mercimek-corbasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yayla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kelle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iskembe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavuk-corbasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarhanaa.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
