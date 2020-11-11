@@ -40,11 +40,11 @@ namespace PuniPos_2
             {
                 case 1:
                     DeActiveAllPanels();
-                    
+                    aperatiflerPanel.Show();
                     break;
                 case 2:
                     DeActiveAllPanels();
-
+                    salatalarPanel.Show();
                     break;
                 case 3:
                     DeActiveAllPanels();
@@ -87,6 +87,8 @@ namespace PuniPos_2
         {
             corbalarPanel.Hide();
             burgersPanel.Hide();
+            aperatiflerPanel.Hide();
+            salatalarPanel.Hide();
         }
 
         //-------------------------------------
