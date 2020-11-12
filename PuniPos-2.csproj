@@ -146,6 +146,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\combotabagi.png" />
+    <None Include="Resources\borek.jpg" />
+    <None Include="Resources\sostabagi.jpg" />
+    <None Include="Resources\sigarabog.jpg" />
+    <None Include="Resources\soğan.jpg" />
+    <None Include="Resources\patatesNormal.jpg" />
+    <None Include="Resources\patates1.jpg" />
+    <None Include="Resources\patates.jpg" />
+    <None Include="Resources\börülce.jpg" />
+    <None Include="Resources\karides.jpg" />
+    <None Include="Resources\ton balik.png" />
+    <None Include="Resources\tavuklu.jpg" />
+    <None Include="Resources\akdeniz.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

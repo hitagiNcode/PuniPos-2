@@ -143,17 +143,6 @@ namespace PuniPos_2
         }
         //------------------------------------
 
-        private void Hamburgerler1_Click(object sender, EventArgs e)
-        {
-            
-            CreateItem(9101, 01, "Tavuk Burger", 19.30f);
-        }
-
-        private void Hamburgerler2_Click(object sender, EventArgs e)
-        {
-            CreateItem(9102, 01, "Et Burger", 22.50f);
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Punipos yapım aşamasında", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -173,7 +162,7 @@ namespace PuniPos_2
         {
             MessageBox.Show("Ana menüye dön.", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
+        //---------------Menu kategorileri-----------
         private void corbaButton_Click(object sender, EventArgs e)
         {
             ShowCategory(3);
@@ -188,5 +177,149 @@ namespace PuniPos_2
         {
             ShowCategory(4);
         }
+
+        private void salataButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(2);
+        }
+
+        private void pizzaButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(5);
+        }
+
+        private void tavukButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(6);
+        }
+
+        private void balikButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(7);
+        }
+
+        private void tatliButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(8);
+        }
+
+        private void drinkButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(9);
+        }
+
+        private void menuButton_Click(object sender, EventArgs e)
+        {
+            ShowCategory(10);
+        }
+        //---------------------------------------
+
+        //------------Siparis Listesi--------------------
+        private void Hamburgerler1_Click(object sender, EventArgs e)
+        {
+
+            CreateItem(9101, 01, "Tavuk Burger", 19.30f);
+        }
+
+        private void Hamburgerler2_Click(object sender, EventArgs e)
+        {
+            CreateItem(9102, 01, "Et Burger", 22.50f);
+        }
+        //----------------Salatalar kategorisi--------------
+        private void salata1_Click(object sender, EventArgs e)
+        {
+            CreateItem(8101, 01, "Akdeniz Salata", 13.50f);
+        }
+
+        private void salata2_Click(object sender, EventArgs e)
+        {
+            CreateItem(8102, 01, "Tavuklu Salata", 15.50f);
+        }
+
+        private void salata3_Click(object sender, EventArgs e)
+        {
+            CreateItem(8103, 01, "Tonbalıklı Salata", 14.50f);
+        }
+
+        private void salata4_Click(object sender, EventArgs e)
+        {
+            CreateItem(8104, 01, "Karidesli Salata", 16.50f);
+        }
+
+        private void salata5_Click(object sender, EventArgs e)
+        {
+            CreateItem(8105, 01, "Börülce Salatası", 13f);
+        }
+
+        private void salata6_Click(object sender, EventArgs e)
+        {
+            CreateItem(8106, 01, "Patates Salatası", 14f);
+        }
+        //--------------------------------------
+
+        //-----------------Aperatifler Kategorisi-------------
+        private void aperatif1_Click(object sender, EventArgs e)
+        {
+            CreateItem(7101, 01, "Patates kızartması", 7f);
+        }
+
+        private void aperatif2_Click(object sender, EventArgs e)
+        {
+            CreateItem(7102, 01, "Soğan halkası", 7.50f);
+        }
+
+        private void aperatif3_Click(object sender, EventArgs e)
+        {
+            CreateItem(7103, 01, "Sigara böreği", 8f);
+        }
+
+        private void aperatif4_Click(object sender, EventArgs e)
+        {
+            CreateItem(7104, 01, "Sosis tabağı", 9.50f);
+        }
+
+        private void aperatif5_Click(object sender, EventArgs e)
+        {
+            CreateItem(7105, 01, "Börek", 11f);
+        }
+
+        private void aperatif6_Click(object sender, EventArgs e)
+        {
+            CreateItem(7106, 01, "Kombo tabak", 14f);
+        }
+        //------------------------------------------------
+
+        //--------------Corbalar Kategorisi--------------
+        private void corba1_Click(object sender, EventArgs e)
+        {
+            CreateItem(6101, 01, "Mercimek çorbası", 8.50f);
+        }
+
+        private void corba2_Click(object sender, EventArgs e)
+        {
+            CreateItem(6102, 01, "Yayla çorbası", 8.50f);
+        }
+
+        private void corba3_Click(object sender, EventArgs e)
+        {
+            CreateItem(6103, 01, "Kellepaça çorbası", 9.50f);
+        }
+
+        private void corba4_Click(object sender, EventArgs e)
+        {
+            CreateItem(6104, 01, "İşkembe çorbası", 9.50f);
+        }
+
+        private void corba5_Click(object sender, EventArgs e)
+        {
+            CreateItem(6105, 01, "Tavuk çorbası", 9.50f);
+        }
+
+        private void corba6_Click(object sender, EventArgs e)
+        {
+            CreateItem(6106, 01, "Tarhana çorbası", 8.50f);
+        }
+        //----------------------------------------------------
+
     }
 }
