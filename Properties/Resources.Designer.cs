@@ -153,6 +153,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cola {
+            get {
+                object obj = ResourceManager.GetObject("cola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap combotabagi {
             get {
                 object obj = ResourceManager.GetObject("combotabagi", resourceCulture);
@@ -213,6 +223,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kabak_tatlisi {
+            get {
+                object obj = ResourceManager.GetObject("kabak-tatlisi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap karidelsi {
             get {
                 object obj = ResourceManager.GetObject("karidelsi", resourceCulture);
@@ -246,6 +266,26 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap kelle {
             get {
                 object obj = ResourceManager.GetObject("kelle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap keskul {
+            get {
+                object obj = ResourceManager.GetObject("keskul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kunefe {
+            get {
+                object obj = ResourceManager.GetObject("Kunefe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,6 +413,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap profiterol {
+            get {
+                object obj = ResourceManager.GetObject("profiterol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PuniposLogo {
             get {
                 object obj = ResourceManager.GetObject("PuniposLogo", resourceCulture);
@@ -436,6 +486,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap sostabagi {
             get {
                 object obj = ResourceManager.GetObject("sostabagi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sutlac_gunu {
+            get {
+                object obj = ResourceManager.GetObject("sutlac-gunu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -516,6 +576,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap ton_balik {
             get {
                 object obj = ResourceManager.GetObject("ton balik", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trilece {
+            get {
+                object obj = ResourceManager.GetObject("trilece", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

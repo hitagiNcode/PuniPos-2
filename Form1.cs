@@ -74,7 +74,7 @@ namespace PuniPos_2
                     break;
                 case 9:
                     DeActiveAllPanels();
-
+                    iceceklerPanel.Show();
                     break;
                 case 10:
                     DeActiveAllPanels();
@@ -93,6 +93,7 @@ namespace PuniPos_2
             tavuklarPanel.Hide();
             baliklarPanel.Hide();
             tatlilarPanel.Hide();
+            iceceklerPanel.Hide();
         }
 
         //-------------------------------------
@@ -438,6 +439,67 @@ namespace PuniPos_2
         {
             CreateItem(3106, 01, "Lüfer", 18f);
         }
+        //---------------------------------------------
+        //-----------------------Tatlilar--------------
+        private void tatli1_Click(object sender, EventArgs e)
+        {
+            CreateItem(2101, 01, "Künefe", 10f);
+        }
 
+        private void tatli2_Click(object sender, EventArgs e)
+        {
+            CreateItem(2102, 01, "Sütlaç", 9.50f);
+        }
+
+        private void tatli3_Click(object sender, EventArgs e)
+        {
+            CreateItem(2103, 01, "Keşkül", 9f);
+        }
+
+        private void tatli4_Click(object sender, EventArgs e)
+        {
+            CreateItem(2104, 01, "Kabak Tatlısı", 7f);
+        }
+
+        private void tatli5_Click(object sender, EventArgs e)
+        {
+            CreateItem(2105, 01, "Trileçe", 10f);
+        }
+
+        private void tatli6_Click(object sender, EventArgs e)
+        {
+            CreateItem(2106, 01, "Profiterol", 8f);
+        }
+        //-----------------------------------------
+        //------------------İcecekler--------------
+        private void button11_Click(object sender, EventArgs e)
+        {
+            CreateItem(1101, 01, "CocaCola", 4f);
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            CreateItem(1102, 01, "Fanta", 4f);
+        }
+
+        private void icecek3_Click(object sender, EventArgs e)
+        {
+            CreateItem(1103, 01, "Sprite", 4f);
+        }
+
+        private void icecek4_Click(object sender, EventArgs e)
+        {
+            CreateItem(1104, 01, "Ayran", 2.50f);
+        }
+
+        private void icecek5_Click(object sender, EventArgs e)
+        {
+            CreateItem(1105, 01, "Çay", 3f);
+        }
+
+        private void icecek6_Click(object sender, EventArgs e)
+        {
+            CreateItem(1106, 01, "Türk Kahvesi", 5f);
+        }
     }
 }

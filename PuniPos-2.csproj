@@ -146,6 +146,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\cola.jpg" />
+    <None Include="Resources\profiterol.jpg" />
+    <None Include="Resources\trilece.jpg" />
+    <None Include="Resources\kabak-tatlisi.jpg" />
+    <None Include="Resources\keskul.jpg" />
+    <None Include="Resources\sutlac-gunu.jpg" />
+    <None Include="Resources\Kunefe.jpg" />
     <None Include="Resources\mercan.png" />
     <None Include="Resources\lufer.jpg" />
     <None Include="Resources\mercan.jpg" />
