@@ -146,6 +146,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\mercan.png" />
+    <None Include="Resources\lufer.jpg" />
+    <None Include="Resources\mercan.jpg" />
+    <None Include="Resources\palamut.jpg" />
+    <None Include="Resources\somon.jpg" />
+    <None Include="Resources\cupra.jpg" />
+    <None Include="Resources\levrek.jpg" />
     <None Include="Resources\b_chililokum.png" />
     <None Include="Resources\b_kremantar.png" />
     <None Include="Resources\b_acili_bikori.jpg" />

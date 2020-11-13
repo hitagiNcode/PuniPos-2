@@ -435,7 +435,8 @@ namespace PuniPos_2
 
         private void baliklar6_Click(object sender, EventArgs e)
         {
-            CreateItem(3106, 01, "Levrek", 18f);
+            CreateItem(3106, 01, "Lüfer", 18f);
         }
+
     }
 }

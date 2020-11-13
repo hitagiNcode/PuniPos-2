@@ -163,6 +163,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cupra {
+            get {
+                object obj = ResourceManager.GetObject("cupra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap et_burger1529153147_1 {
             get {
                 object obj = ResourceManager.GetObject("et-burger1529153147_1", resourceCulture);
@@ -243,6 +253,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap levrek {
+            get {
+                object obj = ResourceManager.GetObject("levrek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lokanta_usulu_mercimek_corbasi {
             get {
                 object obj = ResourceManager.GetObject("lokanta-usulu-mercimek-corbasi", resourceCulture);
@@ -253,9 +273,39 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lufer {
+            get {
+                object obj = ResourceManager.GetObject("lufer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mantarli_pizza_1_8020c {
             get {
                 object obj = ResourceManager.GetObject("mantarli-pizza-1-8020c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mercan {
+            get {
+                object obj = ResourceManager.GetObject("mercan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mercan1 {
+            get {
+                object obj = ResourceManager.GetObject("mercan1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +326,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap nazik_tavukkkk {
             get {
                 object obj = ResourceManager.GetObject("nazik tavukkkk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap palamut {
+            get {
+                object obj = ResourceManager.GetObject("palamut", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,6 +416,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap soğan {
             get {
                 object obj = ResourceManager.GetObject("soğan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap somon {
+            get {
+                object obj = ResourceManager.GetObject("somon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
