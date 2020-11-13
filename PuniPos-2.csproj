@@ -146,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\tavuklu-pizza.png" />
+    <None Include="Resources\sebzali pizza.png" />
+    <None Include="Resources\acili sucuklu.png" />
+    <None Include="Resources\karidelsi.png" />
+    <None Include="Resources\mantarli-pizza-1-8020c.png" />
+    <None Include="Resources\karisik-pizza.jpg" />
     <None Include="Resources\combotabagi.png" />
     <None Include="Resources\borek.jpg" />
     <None Include="Resources\sostabagi.jpg" />

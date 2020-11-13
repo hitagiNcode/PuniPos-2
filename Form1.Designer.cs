@@ -63,36 +63,11 @@
             this.button26 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.burgersPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.Hamburgerler1 = new System.Windows.Forms.Button();
-            this.Hamburgerler2 = new System.Windows.Forms.Button();
-            this.Hamburgerler3 = new System.Windows.Forms.Button();
-            this.Hamburgerler4 = new System.Windows.Forms.Button();
-            this.Hamburgerler5 = new System.Windows.Forms.Button();
-            this.Hamburgerler6 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.corbalarPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.corba1 = new System.Windows.Forms.Button();
-            this.corba2 = new System.Windows.Forms.Button();
-            this.corba3 = new System.Windows.Forms.Button();
-            this.corba4 = new System.Windows.Forms.Button();
-            this.corba5 = new System.Windows.Forms.Button();
-            this.corba6 = new System.Windows.Forms.Button();
             this.aperatiflerPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.aperatif1 = new System.Windows.Forms.Button();
-            this.aperatif2 = new System.Windows.Forms.Button();
-            this.aperatif3 = new System.Windows.Forms.Button();
-            this.aperatif4 = new System.Windows.Forms.Button();
-            this.aperatif5 = new System.Windows.Forms.Button();
-            this.aperatif6 = new System.Windows.Forms.Button();
             this.salatalarPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.salata1 = new System.Windows.Forms.Button();
-            this.salata2 = new System.Windows.Forms.Button();
-            this.salata3 = new System.Windows.Forms.Button();
-            this.salata4 = new System.Windows.Forms.Button();
-            this.salata5 = new System.Windows.Forms.Button();
-            this.salata6 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pizalarPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.pizza1 = new System.Windows.Forms.Button();
             this.pizza2 = new System.Windows.Forms.Button();
@@ -100,6 +75,31 @@
             this.pizza4 = new System.Windows.Forms.Button();
             this.pizza5 = new System.Windows.Forms.Button();
             this.pizza6 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Hamburgerler1 = new System.Windows.Forms.Button();
+            this.Hamburgerler2 = new System.Windows.Forms.Button();
+            this.Hamburgerler3 = new System.Windows.Forms.Button();
+            this.Hamburgerler4 = new System.Windows.Forms.Button();
+            this.Hamburgerler5 = new System.Windows.Forms.Button();
+            this.Hamburgerler6 = new System.Windows.Forms.Button();
+            this.salata1 = new System.Windows.Forms.Button();
+            this.salata2 = new System.Windows.Forms.Button();
+            this.salata3 = new System.Windows.Forms.Button();
+            this.salata4 = new System.Windows.Forms.Button();
+            this.salata5 = new System.Windows.Forms.Button();
+            this.salata6 = new System.Windows.Forms.Button();
+            this.aperatif1 = new System.Windows.Forms.Button();
+            this.aperatif2 = new System.Windows.Forms.Button();
+            this.aperatif3 = new System.Windows.Forms.Button();
+            this.aperatif4 = new System.Windows.Forms.Button();
+            this.aperatif5 = new System.Windows.Forms.Button();
+            this.aperatif6 = new System.Windows.Forms.Button();
+            this.corba1 = new System.Windows.Forms.Button();
+            this.corba2 = new System.Windows.Forms.Button();
+            this.corba3 = new System.Windows.Forms.Button();
+            this.corba4 = new System.Windows.Forms.Button();
+            this.corba5 = new System.Windows.Forms.Button();
+            this.corba6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -107,8 +107,8 @@
             this.corbalarPanel.SuspendLayout();
             this.aperatiflerPanel.SuspendLayout();
             this.salatalarPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pizalarPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -564,6 +564,184 @@
             this.burgersPanel.Size = new System.Drawing.Size(331, 381);
             this.burgersPanel.TabIndex = 39;
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.totalPrice);
+            this.panel2.Location = new System.Drawing.Point(126, 376);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(313, 17);
+            this.panel2.TabIndex = 40;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel3.Controls.Add(this.button21);
+            this.flowLayoutPanel3.Controls.Add(this.button23);
+            this.flowLayoutPanel3.Controls.Add(this.button22);
+            this.flowLayoutPanel3.Controls.Add(this.button24);
+            this.flowLayoutPanel3.Controls.Add(this.button25);
+            this.flowLayoutPanel3.Controls.Add(this.button26);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(125, 396);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(310, 75);
+            this.flowLayoutPanel3.TabIndex = 41;
+            // 
+            // corbalarPanel
+            // 
+            this.corbalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corbalarPanel.Controls.Add(this.corba1);
+            this.corbalarPanel.Controls.Add(this.corba2);
+            this.corbalarPanel.Controls.Add(this.corba3);
+            this.corbalarPanel.Controls.Add(this.corba4);
+            this.corbalarPanel.Controls.Add(this.corba5);
+            this.corbalarPanel.Controls.Add(this.corba6);
+            this.corbalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.corbalarPanel.Name = "corbalarPanel";
+            this.corbalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.corbalarPanel.TabIndex = 42;
+            // 
+            // aperatiflerPanel
+            // 
+            this.aperatiflerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatiflerPanel.Controls.Add(this.aperatif1);
+            this.aperatiflerPanel.Controls.Add(this.aperatif2);
+            this.aperatiflerPanel.Controls.Add(this.aperatif3);
+            this.aperatiflerPanel.Controls.Add(this.aperatif4);
+            this.aperatiflerPanel.Controls.Add(this.aperatif5);
+            this.aperatiflerPanel.Controls.Add(this.aperatif6);
+            this.aperatiflerPanel.Location = new System.Drawing.Point(551, 75);
+            this.aperatiflerPanel.Name = "aperatiflerPanel";
+            this.aperatiflerPanel.Size = new System.Drawing.Size(331, 381);
+            this.aperatiflerPanel.TabIndex = 43;
+            // 
+            // salatalarPanel
+            // 
+            this.salatalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.salatalarPanel.Controls.Add(this.salata1);
+            this.salatalarPanel.Controls.Add(this.salata2);
+            this.salatalarPanel.Controls.Add(this.salata3);
+            this.salatalarPanel.Controls.Add(this.salata4);
+            this.salatalarPanel.Controls.Add(this.salata5);
+            this.salatalarPanel.Controls.Add(this.salata6);
+            this.salatalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.salatalarPanel.Name = "salatalarPanel";
+            this.salatalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.salatalarPanel.TabIndex = 44;
+            // 
+            // pizalarPanel
+            // 
+            this.pizalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizalarPanel.Controls.Add(this.pizza1);
+            this.pizalarPanel.Controls.Add(this.pizza2);
+            this.pizalarPanel.Controls.Add(this.pizza3);
+            this.pizalarPanel.Controls.Add(this.pizza4);
+            this.pizalarPanel.Controls.Add(this.pizza5);
+            this.pizalarPanel.Controls.Add(this.pizza6);
+            this.pizalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.pizalarPanel.Name = "pizalarPanel";
+            this.pizalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.pizalarPanel.TabIndex = 40;
+            // 
+            // pizza1
+            // 
+            this.pizza1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza1.Image = global::PuniPos_2.Properties.Resources.karisik_pizza;
+            this.pizza1.Location = new System.Drawing.Point(3, 3);
+            this.pizza1.Name = "pizza1";
+            this.pizza1.Size = new System.Drawing.Size(155, 122);
+            this.pizza1.TabIndex = 32;
+            this.pizza1.Text = "Karışık Pizza";
+            this.pizza1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza1.UseVisualStyleBackColor = true;
+            this.pizza1.Click += new System.EventHandler(this.pizza1_Click);
+            // 
+            // pizza2
+            // 
+            this.pizza2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza2.Image = global::PuniPos_2.Properties.Resources.mantarli_pizza_1_8020c;
+            this.pizza2.Location = new System.Drawing.Point(164, 3);
+            this.pizza2.Name = "pizza2";
+            this.pizza2.Size = new System.Drawing.Size(155, 122);
+            this.pizza2.TabIndex = 33;
+            this.pizza2.Text = "Mantarlı Pizza";
+            this.pizza2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza2.UseVisualStyleBackColor = true;
+            this.pizza2.Click += new System.EventHandler(this.pizza2_Click);
+            // 
+            // pizza3
+            // 
+            this.pizza3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza3.Image = global::PuniPos_2.Properties.Resources.karidelsi;
+            this.pizza3.Location = new System.Drawing.Point(3, 131);
+            this.pizza3.Name = "pizza3";
+            this.pizza3.Size = new System.Drawing.Size(155, 122);
+            this.pizza3.TabIndex = 34;
+            this.pizza3.Text = "Karidesli Pizza";
+            this.pizza3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza3.UseVisualStyleBackColor = true;
+            this.pizza3.Click += new System.EventHandler(this.pizza3_Click);
+            // 
+            // pizza4
+            // 
+            this.pizza4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza4.Image = global::PuniPos_2.Properties.Resources.acili_sucuklu;
+            this.pizza4.Location = new System.Drawing.Point(164, 131);
+            this.pizza4.Name = "pizza4";
+            this.pizza4.Size = new System.Drawing.Size(155, 122);
+            this.pizza4.TabIndex = 35;
+            this.pizza4.Text = "Acılı Sucuklu Pizza";
+            this.pizza4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza4.UseVisualStyleBackColor = true;
+            this.pizza4.Click += new System.EventHandler(this.pizza4_Click);
+            // 
+            // pizza5
+            // 
+            this.pizza5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza5.Image = global::PuniPos_2.Properties.Resources.sebzali_pizza;
+            this.pizza5.Location = new System.Drawing.Point(3, 259);
+            this.pizza5.Name = "pizza5";
+            this.pizza5.Size = new System.Drawing.Size(155, 122);
+            this.pizza5.TabIndex = 36;
+            this.pizza5.Text = "Sebzeli Pizza";
+            this.pizza5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza5.UseVisualStyleBackColor = true;
+            this.pizza5.Click += new System.EventHandler(this.pizza5_Click);
+            // 
+            // pizza6
+            // 
+            this.pizza6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza6.Image = global::PuniPos_2.Properties.Resources.tavuklu_pizza;
+            this.pizza6.Location = new System.Drawing.Point(164, 259);
+            this.pizza6.Name = "pizza6";
+            this.pizza6.Size = new System.Drawing.Size(155, 122);
+            this.pizza6.TabIndex = 37;
+            this.pizza6.Text = "Tavuklu Pizza";
+            this.pizza6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza6.UseVisualStyleBackColor = true;
+            this.pizza6.Click += new System.EventHandler(this.pizza6_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Hamburgerler1
             // 
             this.Hamburgerler1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -647,242 +825,6 @@
             this.Hamburgerler6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Hamburgerler6.UseVisualStyleBackColor = true;
             this.Hamburgerler6.Click += new System.EventHandler(this.Hamburgerler6_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.totalPrice);
-            this.panel2.Location = new System.Drawing.Point(126, 376);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(313, 17);
-            this.panel2.TabIndex = 40;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel3.Controls.Add(this.button21);
-            this.flowLayoutPanel3.Controls.Add(this.button23);
-            this.flowLayoutPanel3.Controls.Add(this.button22);
-            this.flowLayoutPanel3.Controls.Add(this.button24);
-            this.flowLayoutPanel3.Controls.Add(this.button25);
-            this.flowLayoutPanel3.Controls.Add(this.button26);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(125, 396);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(310, 75);
-            this.flowLayoutPanel3.TabIndex = 41;
-            // 
-            // corbalarPanel
-            // 
-            this.corbalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corbalarPanel.Controls.Add(this.corba1);
-            this.corbalarPanel.Controls.Add(this.corba2);
-            this.corbalarPanel.Controls.Add(this.corba3);
-            this.corbalarPanel.Controls.Add(this.corba4);
-            this.corbalarPanel.Controls.Add(this.corba5);
-            this.corbalarPanel.Controls.Add(this.corba6);
-            this.corbalarPanel.Location = new System.Drawing.Point(553, 75);
-            this.corbalarPanel.Name = "corbalarPanel";
-            this.corbalarPanel.Size = new System.Drawing.Size(331, 381);
-            this.corbalarPanel.TabIndex = 42;
-            // 
-            // corba1
-            // 
-            this.corba1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba1.Image = global::PuniPos_2.Properties.Resources.lokanta_usulu_mercimek_corbasi;
-            this.corba1.Location = new System.Drawing.Point(3, 3);
-            this.corba1.Name = "corba1";
-            this.corba1.Size = new System.Drawing.Size(155, 122);
-            this.corba1.TabIndex = 32;
-            this.corba1.Text = "Mercimek Çorbası";
-            this.corba1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba1.UseVisualStyleBackColor = true;
-            this.corba1.Click += new System.EventHandler(this.corba1_Click);
-            // 
-            // corba2
-            // 
-            this.corba2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba2.Image = global::PuniPos_2.Properties.Resources.yayla;
-            this.corba2.Location = new System.Drawing.Point(164, 3);
-            this.corba2.Name = "corba2";
-            this.corba2.Size = new System.Drawing.Size(155, 122);
-            this.corba2.TabIndex = 33;
-            this.corba2.Text = "Yayla Çorbası";
-            this.corba2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba2.UseVisualStyleBackColor = true;
-            this.corba2.Click += new System.EventHandler(this.corba2_Click);
-            // 
-            // corba3
-            // 
-            this.corba3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba3.Image = global::PuniPos_2.Properties.Resources.kelle;
-            this.corba3.Location = new System.Drawing.Point(3, 131);
-            this.corba3.Name = "corba3";
-            this.corba3.Size = new System.Drawing.Size(155, 122);
-            this.corba3.TabIndex = 34;
-            this.corba3.Text = "Kellepaça Çorbası";
-            this.corba3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba3.UseVisualStyleBackColor = true;
-            this.corba3.Click += new System.EventHandler(this.corba3_Click);
-            // 
-            // corba4
-            // 
-            this.corba4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba4.Image = global::PuniPos_2.Properties.Resources.iskembe;
-            this.corba4.Location = new System.Drawing.Point(164, 131);
-            this.corba4.Name = "corba4";
-            this.corba4.Size = new System.Drawing.Size(155, 122);
-            this.corba4.TabIndex = 35;
-            this.corba4.Text = "İşkembe Çorbası";
-            this.corba4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba4.UseVisualStyleBackColor = true;
-            this.corba4.Click += new System.EventHandler(this.corba4_Click);
-            // 
-            // corba5
-            // 
-            this.corba5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba5.Image = global::PuniPos_2.Properties.Resources.tavuk_corbasi;
-            this.corba5.Location = new System.Drawing.Point(3, 259);
-            this.corba5.Name = "corba5";
-            this.corba5.Size = new System.Drawing.Size(155, 122);
-            this.corba5.TabIndex = 36;
-            this.corba5.Text = "Tavuk Çorbası";
-            this.corba5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba5.UseVisualStyleBackColor = true;
-            this.corba5.Click += new System.EventHandler(this.corba5_Click);
-            // 
-            // corba6
-            // 
-            this.corba6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.corba6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.corba6.Image = global::PuniPos_2.Properties.Resources.tarhanaa;
-            this.corba6.Location = new System.Drawing.Point(164, 259);
-            this.corba6.Name = "corba6";
-            this.corba6.Size = new System.Drawing.Size(155, 122);
-            this.corba6.TabIndex = 37;
-            this.corba6.Text = "Tarhana Çorbası";
-            this.corba6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.corba6.UseVisualStyleBackColor = true;
-            this.corba6.Click += new System.EventHandler(this.corba6_Click);
-            // 
-            // aperatiflerPanel
-            // 
-            this.aperatiflerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatiflerPanel.Controls.Add(this.aperatif1);
-            this.aperatiflerPanel.Controls.Add(this.aperatif2);
-            this.aperatiflerPanel.Controls.Add(this.aperatif3);
-            this.aperatiflerPanel.Controls.Add(this.aperatif4);
-            this.aperatiflerPanel.Controls.Add(this.aperatif5);
-            this.aperatiflerPanel.Controls.Add(this.aperatif6);
-            this.aperatiflerPanel.Location = new System.Drawing.Point(551, 75);
-            this.aperatiflerPanel.Name = "aperatiflerPanel";
-            this.aperatiflerPanel.Size = new System.Drawing.Size(331, 381);
-            this.aperatiflerPanel.TabIndex = 43;
-            // 
-            // aperatif1
-            // 
-            this.aperatif1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif1.Image = global::PuniPos_2.Properties.Resources.patatesNormal;
-            this.aperatif1.Location = new System.Drawing.Point(3, 3);
-            this.aperatif1.Name = "aperatif1";
-            this.aperatif1.Size = new System.Drawing.Size(155, 122);
-            this.aperatif1.TabIndex = 32;
-            this.aperatif1.Text = "Patates Kızartması";
-            this.aperatif1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif1.UseVisualStyleBackColor = true;
-            this.aperatif1.Click += new System.EventHandler(this.aperatif1_Click);
-            // 
-            // aperatif2
-            // 
-            this.aperatif2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif2.Image = global::PuniPos_2.Properties.Resources.soğan;
-            this.aperatif2.Location = new System.Drawing.Point(164, 3);
-            this.aperatif2.Name = "aperatif2";
-            this.aperatif2.Size = new System.Drawing.Size(155, 122);
-            this.aperatif2.TabIndex = 33;
-            this.aperatif2.Text = "Soğan Halkası";
-            this.aperatif2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif2.UseVisualStyleBackColor = true;
-            this.aperatif2.Click += new System.EventHandler(this.aperatif2_Click);
-            // 
-            // aperatif3
-            // 
-            this.aperatif3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif3.Image = global::PuniPos_2.Properties.Resources.sigarabog;
-            this.aperatif3.Location = new System.Drawing.Point(3, 131);
-            this.aperatif3.Name = "aperatif3";
-            this.aperatif3.Size = new System.Drawing.Size(155, 122);
-            this.aperatif3.TabIndex = 34;
-            this.aperatif3.Text = "Sigara Böreği";
-            this.aperatif3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif3.UseVisualStyleBackColor = true;
-            this.aperatif3.Click += new System.EventHandler(this.aperatif3_Click);
-            // 
-            // aperatif4
-            // 
-            this.aperatif4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif4.Image = global::PuniPos_2.Properties.Resources.sostabagi;
-            this.aperatif4.Location = new System.Drawing.Point(164, 131);
-            this.aperatif4.Name = "aperatif4";
-            this.aperatif4.Size = new System.Drawing.Size(155, 122);
-            this.aperatif4.TabIndex = 35;
-            this.aperatif4.Text = "Sosis Tabağı";
-            this.aperatif4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif4.UseVisualStyleBackColor = true;
-            this.aperatif4.Click += new System.EventHandler(this.aperatif4_Click);
-            // 
-            // aperatif5
-            // 
-            this.aperatif5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif5.Image = global::PuniPos_2.Properties.Resources.borek;
-            this.aperatif5.Location = new System.Drawing.Point(3, 259);
-            this.aperatif5.Name = "aperatif5";
-            this.aperatif5.Size = new System.Drawing.Size(155, 122);
-            this.aperatif5.TabIndex = 36;
-            this.aperatif5.Text = "Börek";
-            this.aperatif5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif5.UseVisualStyleBackColor = true;
-            this.aperatif5.Click += new System.EventHandler(this.aperatif5_Click);
-            // 
-            // aperatif6
-            // 
-            this.aperatif6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif6.Image = global::PuniPos_2.Properties.Resources.combotabagi;
-            this.aperatif6.Location = new System.Drawing.Point(164, 259);
-            this.aperatif6.Name = "aperatif6";
-            this.aperatif6.Size = new System.Drawing.Size(155, 122);
-            this.aperatif6.TabIndex = 37;
-            this.aperatif6.Text = "Combo Tabak";
-            this.aperatif6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif6.UseVisualStyleBackColor = true;
-            this.aperatif6.Click += new System.EventHandler(this.aperatif6_Click);
-            // 
-            // salatalarPanel
-            // 
-            this.salatalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.salatalarPanel.Controls.Add(this.salata1);
-            this.salatalarPanel.Controls.Add(this.salata2);
-            this.salatalarPanel.Controls.Add(this.salata3);
-            this.salatalarPanel.Controls.Add(this.salata4);
-            this.salatalarPanel.Controls.Add(this.salata5);
-            this.salatalarPanel.Controls.Add(this.salata6);
-            this.salatalarPanel.Location = new System.Drawing.Point(553, 75);
-            this.salatalarPanel.Name = "salatalarPanel";
-            this.salatalarPanel.Size = new System.Drawing.Size(331, 381);
-            this.salatalarPanel.TabIndex = 44;
             // 
             // salata1
             // 
@@ -968,114 +910,173 @@
             this.salata6.UseVisualStyleBackColor = true;
             this.salata6.Click += new System.EventHandler(this.salata6_Click);
             // 
-            // pictureBox1
+            // aperatif1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.aperatif1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif1.Image = global::PuniPos_2.Properties.Resources.patatesNormal;
+            this.aperatif1.Location = new System.Drawing.Point(3, 3);
+            this.aperatif1.Name = "aperatif1";
+            this.aperatif1.Size = new System.Drawing.Size(155, 122);
+            this.aperatif1.TabIndex = 32;
+            this.aperatif1.Text = "Patates Kızartması";
+            this.aperatif1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif1.UseVisualStyleBackColor = true;
+            this.aperatif1.Click += new System.EventHandler(this.aperatif1_Click);
             // 
-            // pizalarPanel
+            // aperatif2
             // 
-            this.pizalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizalarPanel.Controls.Add(this.pizza1);
-            this.pizalarPanel.Controls.Add(this.pizza2);
-            this.pizalarPanel.Controls.Add(this.pizza3);
-            this.pizalarPanel.Controls.Add(this.pizza4);
-            this.pizalarPanel.Controls.Add(this.pizza5);
-            this.pizalarPanel.Controls.Add(this.pizza6);
-            this.pizalarPanel.Location = new System.Drawing.Point(553, 75);
-            this.pizalarPanel.Name = "pizalarPanel";
-            this.pizalarPanel.Size = new System.Drawing.Size(331, 381);
-            this.pizalarPanel.TabIndex = 40;
+            this.aperatif2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif2.Image = global::PuniPos_2.Properties.Resources.soğan;
+            this.aperatif2.Location = new System.Drawing.Point(164, 3);
+            this.aperatif2.Name = "aperatif2";
+            this.aperatif2.Size = new System.Drawing.Size(155, 122);
+            this.aperatif2.TabIndex = 33;
+            this.aperatif2.Text = "Soğan Halkası";
+            this.aperatif2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif2.UseVisualStyleBackColor = true;
+            this.aperatif2.Click += new System.EventHandler(this.aperatif2_Click);
             // 
-            // pizza1
+            // aperatif3
             // 
-            this.pizza1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza1.Location = new System.Drawing.Point(3, 3);
-            this.pizza1.Name = "pizza1";
-            this.pizza1.Size = new System.Drawing.Size(155, 122);
-            this.pizza1.TabIndex = 32;
-            this.pizza1.Text = "Karışık Pizza";
-            this.pizza1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza1.UseVisualStyleBackColor = true;
-            this.pizza1.Click += new System.EventHandler(this.pizza1_Click);
+            this.aperatif3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif3.Image = global::PuniPos_2.Properties.Resources.sigarabog;
+            this.aperatif3.Location = new System.Drawing.Point(3, 131);
+            this.aperatif3.Name = "aperatif3";
+            this.aperatif3.Size = new System.Drawing.Size(155, 122);
+            this.aperatif3.TabIndex = 34;
+            this.aperatif3.Text = "Sigara Böreği";
+            this.aperatif3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif3.UseVisualStyleBackColor = true;
+            this.aperatif3.Click += new System.EventHandler(this.aperatif3_Click);
             // 
-            // pizza2
+            // aperatif4
             // 
-            this.pizza2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza2.Image = global::PuniPos_2.Properties.Resources.et_burger1529153147_11;
-            this.pizza2.Location = new System.Drawing.Point(164, 3);
-            this.pizza2.Name = "pizza2";
-            this.pizza2.Size = new System.Drawing.Size(155, 122);
-            this.pizza2.TabIndex = 33;
-            this.pizza2.Text = "Mantarlı Pizza";
-            this.pizza2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza2.UseVisualStyleBackColor = true;
-            this.pizza2.Click += new System.EventHandler(this.pizza2_Click);
+            this.aperatif4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif4.Image = global::PuniPos_2.Properties.Resources.sostabagi;
+            this.aperatif4.Location = new System.Drawing.Point(164, 131);
+            this.aperatif4.Name = "aperatif4";
+            this.aperatif4.Size = new System.Drawing.Size(155, 122);
+            this.aperatif4.TabIndex = 35;
+            this.aperatif4.Text = "Sosis Tabağı";
+            this.aperatif4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif4.UseVisualStyleBackColor = true;
+            this.aperatif4.Click += new System.EventHandler(this.aperatif4_Click);
             // 
-            // pizza3
+            // aperatif5
             // 
-            this.pizza3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza3.Image = global::PuniPos_2.Properties.Resources.vej;
-            this.pizza3.Location = new System.Drawing.Point(3, 131);
-            this.pizza3.Name = "pizza3";
-            this.pizza3.Size = new System.Drawing.Size(155, 122);
-            this.pizza3.TabIndex = 34;
-            this.pizza3.Text = "Karidesli Pizza";
-            this.pizza3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza3.UseVisualStyleBackColor = true;
-            this.pizza3.Click += new System.EventHandler(this.pizza3_Click);
+            this.aperatif5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif5.Image = global::PuniPos_2.Properties.Resources.borek;
+            this.aperatif5.Location = new System.Drawing.Point(3, 259);
+            this.aperatif5.Name = "aperatif5";
+            this.aperatif5.Size = new System.Drawing.Size(155, 122);
+            this.aperatif5.TabIndex = 36;
+            this.aperatif5.Text = "Börek";
+            this.aperatif5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif5.UseVisualStyleBackColor = true;
+            this.aperatif5.Click += new System.EventHandler(this.aperatif5_Click);
             // 
-            // pizza4
+            // aperatif6
             // 
-            this.pizza4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza4.Image = global::PuniPos_2.Properties.Resources.balik;
-            this.pizza4.Location = new System.Drawing.Point(164, 131);
-            this.pizza4.Name = "pizza4";
-            this.pizza4.Size = new System.Drawing.Size(155, 122);
-            this.pizza4.TabIndex = 35;
-            this.pizza4.Text = "Acılı Sucuklu Pizza";
-            this.pizza4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza4.UseVisualStyleBackColor = true;
-            this.pizza4.Click += new System.EventHandler(this.pizza4_Click);
+            this.aperatif6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif6.Image = global::PuniPos_2.Properties.Resources.combotabagi;
+            this.aperatif6.Location = new System.Drawing.Point(164, 259);
+            this.aperatif6.Name = "aperatif6";
+            this.aperatif6.Size = new System.Drawing.Size(155, 122);
+            this.aperatif6.TabIndex = 37;
+            this.aperatif6.Text = "Combo Tabak";
+            this.aperatif6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif6.UseVisualStyleBackColor = true;
+            this.aperatif6.Click += new System.EventHandler(this.aperatif6_Click);
             // 
-            // pizza5
+            // corba1
             // 
-            this.pizza5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza5.Image = global::PuniPos_2.Properties.Resources.Cheeseburger;
-            this.pizza5.Location = new System.Drawing.Point(3, 259);
-            this.pizza5.Name = "pizza5";
-            this.pizza5.Size = new System.Drawing.Size(155, 122);
-            this.pizza5.TabIndex = 36;
-            this.pizza5.Text = "Sebzeli Pizza";
-            this.pizza5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza5.UseVisualStyleBackColor = true;
-            this.pizza5.Click += new System.EventHandler(this.pizza5_Click);
+            this.corba1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba1.Image = global::PuniPos_2.Properties.Resources.lokanta_usulu_mercimek_corbasi;
+            this.corba1.Location = new System.Drawing.Point(3, 3);
+            this.corba1.Name = "corba1";
+            this.corba1.Size = new System.Drawing.Size(155, 122);
+            this.corba1.TabIndex = 32;
+            this.corba1.Text = "Mercimek Çorbası";
+            this.corba1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba1.UseVisualStyleBackColor = true;
+            this.corba1.Click += new System.EventHandler(this.corba1_Click);
             // 
-            // pizza6
+            // corba2
             // 
-            this.pizza6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pizza6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pizza6.Image = global::PuniPos_2.Properties.Resources.v2hawaii;
-            this.pizza6.Location = new System.Drawing.Point(164, 259);
-            this.pizza6.Name = "pizza6";
-            this.pizza6.Size = new System.Drawing.Size(155, 122);
-            this.pizza6.TabIndex = 37;
-            this.pizza6.Text = "Tavuklu Pizza";
-            this.pizza6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.pizza6.UseVisualStyleBackColor = true;
-            this.pizza6.Click += new System.EventHandler(this.pizza6_Click);
+            this.corba2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba2.Image = global::PuniPos_2.Properties.Resources.yayla;
+            this.corba2.Location = new System.Drawing.Point(164, 3);
+            this.corba2.Name = "corba2";
+            this.corba2.Size = new System.Drawing.Size(155, 122);
+            this.corba2.TabIndex = 33;
+            this.corba2.Text = "Yayla Çorbası";
+            this.corba2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba2.UseVisualStyleBackColor = true;
+            this.corba2.Click += new System.EventHandler(this.corba2_Click);
+            // 
+            // corba3
+            // 
+            this.corba3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba3.Image = global::PuniPos_2.Properties.Resources.kelle;
+            this.corba3.Location = new System.Drawing.Point(3, 131);
+            this.corba3.Name = "corba3";
+            this.corba3.Size = new System.Drawing.Size(155, 122);
+            this.corba3.TabIndex = 34;
+            this.corba3.Text = "Kellepaça Çorbası";
+            this.corba3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba3.UseVisualStyleBackColor = true;
+            this.corba3.Click += new System.EventHandler(this.corba3_Click);
+            // 
+            // corba4
+            // 
+            this.corba4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba4.Image = global::PuniPos_2.Properties.Resources.iskembe;
+            this.corba4.Location = new System.Drawing.Point(164, 131);
+            this.corba4.Name = "corba4";
+            this.corba4.Size = new System.Drawing.Size(155, 122);
+            this.corba4.TabIndex = 35;
+            this.corba4.Text = "İşkembe Çorbası";
+            this.corba4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba4.UseVisualStyleBackColor = true;
+            this.corba4.Click += new System.EventHandler(this.corba4_Click);
+            // 
+            // corba5
+            // 
+            this.corba5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba5.Image = global::PuniPos_2.Properties.Resources.tavuk_corbasi;
+            this.corba5.Location = new System.Drawing.Point(3, 259);
+            this.corba5.Name = "corba5";
+            this.corba5.Size = new System.Drawing.Size(155, 122);
+            this.corba5.TabIndex = 36;
+            this.corba5.Text = "Tavuk Çorbası";
+            this.corba5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba5.UseVisualStyleBackColor = true;
+            this.corba5.Click += new System.EventHandler(this.corba5_Click);
+            // 
+            // corba6
+            // 
+            this.corba6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.corba6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.corba6.Image = global::PuniPos_2.Properties.Resources.tarhanaa;
+            this.corba6.Location = new System.Drawing.Point(164, 259);
+            this.corba6.Name = "corba6";
+            this.corba6.Size = new System.Drawing.Size(155, 122);
+            this.corba6.TabIndex = 37;
+            this.corba6.Text = "Tarhana Çorbası";
+            this.corba6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.corba6.UseVisualStyleBackColor = true;
+            this.corba6.Click += new System.EventHandler(this.corba6_Click);
             // 
             // Form1
             // 
@@ -1128,8 +1129,8 @@
             this.corbalarPanel.ResumeLayout(false);
             this.aperatiflerPanel.ResumeLayout(false);
             this.salatalarPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pizalarPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
