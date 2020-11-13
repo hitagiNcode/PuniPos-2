@@ -29,7 +29,7 @@ namespace PuniPos_2
             timeLabel.Text = DateTime.Now.ToLongDateString();
             orderList = new List<ListItem>();
             totalPrice.Text = totalAmount.ToString();
-            ShowCategory(4);
+            ShowCategory(1);
         }
 
         //------------Kategori Region----------
@@ -62,11 +62,11 @@ namespace PuniPos_2
                     break;
                 case 6:
                     DeActiveAllPanels();
-
+                    tavuklarPanel.Show();
                     break;
                 case 7:
                     DeActiveAllPanels();
-
+                    baliklarPanel.Show();
                     break;
                 case 8:
                     DeActiveAllPanels();
@@ -90,6 +90,8 @@ namespace PuniPos_2
             aperatiflerPanel.Hide();
             salatalarPanel.Hide();
             pizalarPanel.Hide();
+            tavuklarPanel.Hide();
+            baliklarPanel.Hide();
         }
 
         //-------------------------------------
@@ -372,6 +374,68 @@ namespace PuniPos_2
         private void pizza6_Click(object sender, EventArgs e)
         {
             CreateItem(5106, 01, "Tavuklu Pizza", 24.50f);
+        }
+        //---------------------------------------
+        //------------------Tavuklar-------------------
+        private void tavuk1_Click(object sender, EventArgs e)
+        {
+            CreateItem(4101, 01, "Şefin tavası Tavuk", 25.50f);
+        }
+
+        private void tavuk2_Click(object sender, EventArgs e)
+        {
+            CreateItem(4102, 01, "Acılı Tavuk But", 24.90f);
+        }
+
+        private void tavuk3_Click(object sender, EventArgs e)
+        {
+            CreateItem(4103, 01, "Kremantar Tavuk", 26.50f);
+        }
+
+        private void tavuk4_Click(object sender, EventArgs e)
+        {
+            CreateItem(4104, 01, "Ali Nazik Tavuk", 27f);
+        }
+
+        private void tavuk5_Click(object sender, EventArgs e)
+        {
+            CreateItem(4105, 01, "Közlüce Tavuk", 25.90f);
+        }
+
+        private void tavuk6_Click(object sender, EventArgs e)
+        {
+            CreateItem(4106, 01, "Körili Tavuk", 24f);
+        }
+        //------------------------------------------------------
+        //------------------Baliklar-----------------------
+        private void baliklar1_Click(object sender, EventArgs e)
+        {
+            CreateItem(3101, 01, "Levrek", 17f);
+        }
+
+        private void baliklar2_Click(object sender, EventArgs e)
+        {
+            CreateItem(3102, 01, "Çupra", 17.50f);
+        }
+
+        private void baliklar3_Click(object sender, EventArgs e)
+        {
+            CreateItem(3103, 01, "Somon", 16f);
+        }
+
+        private void baliklar4_Click(object sender, EventArgs e)
+        {
+            CreateItem(3104, 01, "Palamut", 17f);
+        }
+
+        private void baliklar5_Click(object sender, EventArgs e)
+        {
+            CreateItem(3105, 01, "Mercan", 16.50f);
+        }
+
+        private void baliklar6_Click(object sender, EventArgs e)
+        {
+            CreateItem(3106, 01, "Levrek", 18f);
         }
     }
 }

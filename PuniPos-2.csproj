@@ -146,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\b_chililokum.png" />
+    <None Include="Resources\b_kremantar.png" />
+    <None Include="Resources\b_acili_bikori.jpg" />
+    <None Include="Resources\nazik tavukkkk.png" />
+    <None Include="Resources\nazik tavuk.jpg" />
+    <None Include="Resources\sefin tavasi.jpg" />
     <None Include="Resources\tavuklu-pizza.png" />
     <None Include="Resources\sebzali pizza.png" />
     <None Include="Resources\acili sucuklu.png" />

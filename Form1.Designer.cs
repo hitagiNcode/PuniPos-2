@@ -69,6 +69,13 @@
             this.aperatiflerPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.salatalarPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.pizalarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.tavuklarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.tavuk1 = new System.Windows.Forms.Button();
+            this.tavuk2 = new System.Windows.Forms.Button();
+            this.tavuk3 = new System.Windows.Forms.Button();
+            this.tavuk4 = new System.Windows.Forms.Button();
+            this.tavuk5 = new System.Windows.Forms.Button();
+            this.tavuk6 = new System.Windows.Forms.Button();
             this.pizza1 = new System.Windows.Forms.Button();
             this.pizza2 = new System.Windows.Forms.Button();
             this.pizza3 = new System.Windows.Forms.Button();
@@ -100,6 +107,13 @@
             this.corba4 = new System.Windows.Forms.Button();
             this.corba5 = new System.Windows.Forms.Button();
             this.corba6 = new System.Windows.Forms.Button();
+            this.baliklarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.baliklar1 = new System.Windows.Forms.Button();
+            this.baliklar2 = new System.Windows.Forms.Button();
+            this.baliklar3 = new System.Windows.Forms.Button();
+            this.baliklar4 = new System.Windows.Forms.Button();
+            this.baliklar5 = new System.Windows.Forms.Button();
+            this.baliklar6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -108,7 +122,9 @@
             this.aperatiflerPanel.SuspendLayout();
             this.salatalarPanel.SuspendLayout();
             this.pizalarPanel.SuspendLayout();
+            this.tavuklarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.baliklarPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -646,6 +662,104 @@
             this.pizalarPanel.Size = new System.Drawing.Size(331, 381);
             this.pizalarPanel.TabIndex = 40;
             // 
+            // tavuklarPanel
+            // 
+            this.tavuklarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuklarPanel.Controls.Add(this.tavuk1);
+            this.tavuklarPanel.Controls.Add(this.tavuk2);
+            this.tavuklarPanel.Controls.Add(this.tavuk3);
+            this.tavuklarPanel.Controls.Add(this.tavuk4);
+            this.tavuklarPanel.Controls.Add(this.tavuk5);
+            this.tavuklarPanel.Controls.Add(this.tavuk6);
+            this.tavuklarPanel.Location = new System.Drawing.Point(553, 75);
+            this.tavuklarPanel.Name = "tavuklarPanel";
+            this.tavuklarPanel.Size = new System.Drawing.Size(331, 381);
+            this.tavuklarPanel.TabIndex = 41;
+            // 
+            // tavuk1
+            // 
+            this.tavuk1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk1.Image = global::PuniPos_2.Properties.Resources.sefin_tavasi;
+            this.tavuk1.Location = new System.Drawing.Point(3, 3);
+            this.tavuk1.Name = "tavuk1";
+            this.tavuk1.Size = new System.Drawing.Size(155, 122);
+            this.tavuk1.TabIndex = 32;
+            this.tavuk1.Text = "Şefin Tavası Tavuk";
+            this.tavuk1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk1.UseVisualStyleBackColor = true;
+            this.tavuk1.Click += new System.EventHandler(this.tavuk1_Click);
+            // 
+            // tavuk2
+            // 
+            this.tavuk2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk2.Image = global::PuniPos_2.Properties.Resources.b_acili_bikori;
+            this.tavuk2.Location = new System.Drawing.Point(164, 3);
+            this.tavuk2.Name = "tavuk2";
+            this.tavuk2.Size = new System.Drawing.Size(155, 122);
+            this.tavuk2.TabIndex = 33;
+            this.tavuk2.Text = "Acılı Tavuk But ";
+            this.tavuk2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk2.UseVisualStyleBackColor = true;
+            this.tavuk2.Click += new System.EventHandler(this.tavuk2_Click);
+            // 
+            // tavuk3
+            // 
+            this.tavuk3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk3.Image = global::PuniPos_2.Properties.Resources.b_kremantar;
+            this.tavuk3.Location = new System.Drawing.Point(3, 131);
+            this.tavuk3.Name = "tavuk3";
+            this.tavuk3.Size = new System.Drawing.Size(155, 122);
+            this.tavuk3.TabIndex = 34;
+            this.tavuk3.Text = "Kremantar Tavuk";
+            this.tavuk3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk3.UseVisualStyleBackColor = true;
+            this.tavuk3.Click += new System.EventHandler(this.tavuk3_Click);
+            // 
+            // tavuk4
+            // 
+            this.tavuk4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk4.Image = global::PuniPos_2.Properties.Resources.nazik_tavukkkk;
+            this.tavuk4.Location = new System.Drawing.Point(164, 131);
+            this.tavuk4.Name = "tavuk4";
+            this.tavuk4.Size = new System.Drawing.Size(155, 122);
+            this.tavuk4.TabIndex = 35;
+            this.tavuk4.Text = "Ali Nazik Tavuk";
+            this.tavuk4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk4.UseVisualStyleBackColor = true;
+            this.tavuk4.Click += new System.EventHandler(this.tavuk4_Click);
+            // 
+            // tavuk5
+            // 
+            this.tavuk5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk5.Image = global::PuniPos_2.Properties.Resources.b_chililokum;
+            this.tavuk5.Location = new System.Drawing.Point(3, 259);
+            this.tavuk5.Name = "tavuk5";
+            this.tavuk5.Size = new System.Drawing.Size(155, 122);
+            this.tavuk5.TabIndex = 36;
+            this.tavuk5.Text = "Közlüce Tavuk";
+            this.tavuk5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk5.UseVisualStyleBackColor = true;
+            this.tavuk5.Click += new System.EventHandler(this.tavuk5_Click);
+            // 
+            // tavuk6
+            // 
+            this.tavuk6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tavuk6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tavuk6.Image = global::PuniPos_2.Properties.Resources.b_acili_bikori;
+            this.tavuk6.Location = new System.Drawing.Point(164, 259);
+            this.tavuk6.Name = "tavuk6";
+            this.tavuk6.Size = new System.Drawing.Size(155, 122);
+            this.tavuk6.TabIndex = 37;
+            this.tavuk6.Text = "Körili Tavuk";
+            this.tavuk6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tavuk6.UseVisualStyleBackColor = true;
+            this.tavuk6.Click += new System.EventHandler(this.tavuk6_Click);
+            // 
             // pizza1
             // 
             this.pizza1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -1078,6 +1192,103 @@
             this.corba6.UseVisualStyleBackColor = true;
             this.corba6.Click += new System.EventHandler(this.corba6_Click);
             // 
+            // baliklarPanel
+            // 
+            this.baliklarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklarPanel.Controls.Add(this.baliklar1);
+            this.baliklarPanel.Controls.Add(this.baliklar2);
+            this.baliklarPanel.Controls.Add(this.baliklar3);
+            this.baliklarPanel.Controls.Add(this.baliklar4);
+            this.baliklarPanel.Controls.Add(this.baliklar5);
+            this.baliklarPanel.Controls.Add(this.baliklar6);
+            this.baliklarPanel.Location = new System.Drawing.Point(553, 75);
+            this.baliklarPanel.Name = "baliklarPanel";
+            this.baliklarPanel.Size = new System.Drawing.Size(331, 381);
+            this.baliklarPanel.TabIndex = 42;
+            // 
+            // baliklar1
+            // 
+            this.baliklar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar1.Location = new System.Drawing.Point(3, 3);
+            this.baliklar1.Name = "baliklar1";
+            this.baliklar1.Size = new System.Drawing.Size(155, 122);
+            this.baliklar1.TabIndex = 32;
+            this.baliklar1.Text = "Levrek";
+            this.baliklar1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar1.UseVisualStyleBackColor = true;
+            this.baliklar1.Click += new System.EventHandler(this.baliklar1_Click);
+            // 
+            // baliklar2
+            // 
+            this.baliklar2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar2.Image = global::PuniPos_2.Properties.Resources.b_acili_bikori;
+            this.baliklar2.Location = new System.Drawing.Point(164, 3);
+            this.baliklar2.Name = "baliklar2";
+            this.baliklar2.Size = new System.Drawing.Size(155, 122);
+            this.baliklar2.TabIndex = 33;
+            this.baliklar2.Text = "Çupra";
+            this.baliklar2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar2.UseVisualStyleBackColor = true;
+            this.baliklar2.Click += new System.EventHandler(this.baliklar2_Click);
+            // 
+            // baliklar3
+            // 
+            this.baliklar3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar3.Image = global::PuniPos_2.Properties.Resources.b_kremantar;
+            this.baliklar3.Location = new System.Drawing.Point(3, 131);
+            this.baliklar3.Name = "baliklar3";
+            this.baliklar3.Size = new System.Drawing.Size(155, 122);
+            this.baliklar3.TabIndex = 34;
+            this.baliklar3.Text = "Somon";
+            this.baliklar3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar3.UseVisualStyleBackColor = true;
+            this.baliklar3.Click += new System.EventHandler(this.baliklar3_Click);
+            // 
+            // baliklar4
+            // 
+            this.baliklar4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar4.Image = global::PuniPos_2.Properties.Resources.nazik_tavukkkk;
+            this.baliklar4.Location = new System.Drawing.Point(164, 131);
+            this.baliklar4.Name = "baliklar4";
+            this.baliklar4.Size = new System.Drawing.Size(155, 122);
+            this.baliklar4.TabIndex = 35;
+            this.baliklar4.Text = "Palamut";
+            this.baliklar4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar4.UseVisualStyleBackColor = true;
+            this.baliklar4.Click += new System.EventHandler(this.baliklar4_Click);
+            // 
+            // baliklar5
+            // 
+            this.baliklar5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar5.Image = global::PuniPos_2.Properties.Resources.b_chililokum;
+            this.baliklar5.Location = new System.Drawing.Point(3, 259);
+            this.baliklar5.Name = "baliklar5";
+            this.baliklar5.Size = new System.Drawing.Size(155, 122);
+            this.baliklar5.TabIndex = 36;
+            this.baliklar5.Text = "Mercan";
+            this.baliklar5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar5.UseVisualStyleBackColor = true;
+            this.baliklar5.Click += new System.EventHandler(this.baliklar5_Click);
+            // 
+            // baliklar6
+            // 
+            this.baliklar6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.baliklar6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.baliklar6.Image = global::PuniPos_2.Properties.Resources.b_acili_bikori;
+            this.baliklar6.Location = new System.Drawing.Point(164, 259);
+            this.baliklar6.Name = "baliklar6";
+            this.baliklar6.Size = new System.Drawing.Size(155, 122);
+            this.baliklar6.TabIndex = 37;
+            this.baliklar6.Text = "Lüfer";
+            this.baliklar6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.baliklar6.UseVisualStyleBackColor = true;
+            this.baliklar6.Click += new System.EventHandler(this.baliklar6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1090,6 +1301,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.drinkButton);
+            this.Controls.Add(this.baliklarPanel);
+            this.Controls.Add(this.tavuklarPanel);
             this.Controls.Add(this.pizalarPanel);
             this.Controls.Add(this.tatliButton);
             this.Controls.Add(this.balikButton);
@@ -1130,7 +1343,9 @@
             this.aperatiflerPanel.ResumeLayout(false);
             this.salatalarPanel.ResumeLayout(false);
             this.pizalarPanel.ResumeLayout(false);
+            this.tavuklarPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.baliklarPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1209,6 +1424,20 @@
         private System.Windows.Forms.Button pizza4;
         private System.Windows.Forms.Button pizza5;
         private System.Windows.Forms.Button pizza6;
+        private System.Windows.Forms.FlowLayoutPanel tavuklarPanel;
+        private System.Windows.Forms.Button tavuk1;
+        private System.Windows.Forms.Button tavuk2;
+        private System.Windows.Forms.Button tavuk3;
+        private System.Windows.Forms.Button tavuk4;
+        private System.Windows.Forms.Button tavuk5;
+        private System.Windows.Forms.Button tavuk6;
+        private System.Windows.Forms.FlowLayoutPanel baliklarPanel;
+        private System.Windows.Forms.Button baliklar1;
+        private System.Windows.Forms.Button baliklar2;
+        private System.Windows.Forms.Button baliklar3;
+        private System.Windows.Forms.Button baliklar4;
+        private System.Windows.Forms.Button baliklar5;
+        private System.Windows.Forms.Button baliklar6;
     }
 }
 
