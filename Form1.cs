@@ -70,7 +70,7 @@ namespace PuniPos_2
                     break;
                 case 8:
                     DeActiveAllPanels();
-
+                    tatlilarPanel.Show();
                     break;
                 case 9:
                     DeActiveAllPanels();
@@ -92,6 +92,7 @@ namespace PuniPos_2
             pizalarPanel.Hide();
             tavuklarPanel.Hide();
             baliklarPanel.Hide();
+            tatlilarPanel.Hide();
         }
 
         //-------------------------------------
