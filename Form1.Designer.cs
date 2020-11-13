@@ -63,36 +63,43 @@
             this.button26 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.burgersPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.corbalarPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.aperatiflerPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.salatalarPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.aperatif1 = new System.Windows.Forms.Button();
-            this.aperatif2 = new System.Windows.Forms.Button();
-            this.aperatif3 = new System.Windows.Forms.Button();
-            this.aperatif4 = new System.Windows.Forms.Button();
-            this.aperatif5 = new System.Windows.Forms.Button();
-            this.aperatif6 = new System.Windows.Forms.Button();
-            this.corba1 = new System.Windows.Forms.Button();
-            this.corba2 = new System.Windows.Forms.Button();
-            this.corba3 = new System.Windows.Forms.Button();
-            this.corba4 = new System.Windows.Forms.Button();
-            this.corba5 = new System.Windows.Forms.Button();
-            this.corba6 = new System.Windows.Forms.Button();
             this.Hamburgerler1 = new System.Windows.Forms.Button();
             this.Hamburgerler2 = new System.Windows.Forms.Button();
             this.Hamburgerler3 = new System.Windows.Forms.Button();
             this.Hamburgerler4 = new System.Windows.Forms.Button();
             this.Hamburgerler5 = new System.Windows.Forms.Button();
             this.Hamburgerler6 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.corbalarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.corba1 = new System.Windows.Forms.Button();
+            this.corba2 = new System.Windows.Forms.Button();
+            this.corba3 = new System.Windows.Forms.Button();
+            this.corba4 = new System.Windows.Forms.Button();
+            this.corba5 = new System.Windows.Forms.Button();
+            this.corba6 = new System.Windows.Forms.Button();
+            this.aperatiflerPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.aperatif1 = new System.Windows.Forms.Button();
+            this.aperatif2 = new System.Windows.Forms.Button();
+            this.aperatif3 = new System.Windows.Forms.Button();
+            this.aperatif4 = new System.Windows.Forms.Button();
+            this.aperatif5 = new System.Windows.Forms.Button();
+            this.aperatif6 = new System.Windows.Forms.Button();
+            this.salatalarPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.salata1 = new System.Windows.Forms.Button();
             this.salata2 = new System.Windows.Forms.Button();
             this.salata3 = new System.Windows.Forms.Button();
             this.salata4 = new System.Windows.Forms.Button();
             this.salata5 = new System.Windows.Forms.Button();
             this.salata6 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pizalarPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.pizza1 = new System.Windows.Forms.Button();
+            this.pizza2 = new System.Windows.Forms.Button();
+            this.pizza3 = new System.Windows.Forms.Button();
+            this.pizza4 = new System.Windows.Forms.Button();
+            this.pizza5 = new System.Windows.Forms.Button();
+            this.pizza6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -101,6 +108,7 @@
             this.aperatiflerPanel.SuspendLayout();
             this.salatalarPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pizalarPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -556,6 +564,90 @@
             this.burgersPanel.Size = new System.Drawing.Size(331, 381);
             this.burgersPanel.TabIndex = 39;
             // 
+            // Hamburgerler1
+            // 
+            this.Hamburgerler1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler1.Image = global::PuniPos_2.Properties.Resources.tavukburger_sandvicv2;
+            this.Hamburgerler1.Location = new System.Drawing.Point(3, 3);
+            this.Hamburgerler1.Name = "Hamburgerler1";
+            this.Hamburgerler1.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler1.TabIndex = 32;
+            this.Hamburgerler1.Text = "Tavuk Burger";
+            this.Hamburgerler1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler1.UseVisualStyleBackColor = true;
+            this.Hamburgerler1.Click += new System.EventHandler(this.Hamburgerler1_Click);
+            // 
+            // Hamburgerler2
+            // 
+            this.Hamburgerler2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler2.Image = global::PuniPos_2.Properties.Resources.et_burger1529153147_11;
+            this.Hamburgerler2.Location = new System.Drawing.Point(164, 3);
+            this.Hamburgerler2.Name = "Hamburgerler2";
+            this.Hamburgerler2.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler2.TabIndex = 33;
+            this.Hamburgerler2.Text = "Et Burger";
+            this.Hamburgerler2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler2.UseVisualStyleBackColor = true;
+            this.Hamburgerler2.Click += new System.EventHandler(this.Hamburgerler2_Click);
+            // 
+            // Hamburgerler3
+            // 
+            this.Hamburgerler3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler3.Image = global::PuniPos_2.Properties.Resources.vej;
+            this.Hamburgerler3.Location = new System.Drawing.Point(3, 131);
+            this.Hamburgerler3.Name = "Hamburgerler3";
+            this.Hamburgerler3.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler3.TabIndex = 34;
+            this.Hamburgerler3.Text = "Vejeteryan Burger";
+            this.Hamburgerler3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler3.UseVisualStyleBackColor = true;
+            this.Hamburgerler3.Click += new System.EventHandler(this.Hamburgerler3_Click);
+            // 
+            // Hamburgerler4
+            // 
+            this.Hamburgerler4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler4.Image = global::PuniPos_2.Properties.Resources.balik;
+            this.Hamburgerler4.Location = new System.Drawing.Point(164, 131);
+            this.Hamburgerler4.Name = "Hamburgerler4";
+            this.Hamburgerler4.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler4.TabIndex = 35;
+            this.Hamburgerler4.Text = "Balık Burger";
+            this.Hamburgerler4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler4.UseVisualStyleBackColor = true;
+            this.Hamburgerler4.Click += new System.EventHandler(this.Hamburgerler4_Click);
+            // 
+            // Hamburgerler5
+            // 
+            this.Hamburgerler5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler5.Image = global::PuniPos_2.Properties.Resources.Cheeseburger;
+            this.Hamburgerler5.Location = new System.Drawing.Point(3, 259);
+            this.Hamburgerler5.Name = "Hamburgerler5";
+            this.Hamburgerler5.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler5.TabIndex = 36;
+            this.Hamburgerler5.Text = "Cheese Burger";
+            this.Hamburgerler5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler5.UseVisualStyleBackColor = true;
+            this.Hamburgerler5.Click += new System.EventHandler(this.Hamburgerler5_Click);
+            // 
+            // Hamburgerler6
+            // 
+            this.Hamburgerler6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Hamburgerler6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Hamburgerler6.Image = global::PuniPos_2.Properties.Resources.v2hawaii;
+            this.Hamburgerler6.Location = new System.Drawing.Point(164, 259);
+            this.Hamburgerler6.Name = "Hamburgerler6";
+            this.Hamburgerler6.Size = new System.Drawing.Size(155, 122);
+            this.Hamburgerler6.TabIndex = 37;
+            this.Hamburgerler6.Text = "Hawaii Burger";
+            this.Hamburgerler6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.Hamburgerler6.UseVisualStyleBackColor = true;
+            this.Hamburgerler6.Click += new System.EventHandler(this.Hamburgerler6_Click);
+            // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -595,130 +687,6 @@
             this.corbalarPanel.Name = "corbalarPanel";
             this.corbalarPanel.Size = new System.Drawing.Size(331, 381);
             this.corbalarPanel.TabIndex = 42;
-            // 
-            // aperatiflerPanel
-            // 
-            this.aperatiflerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatiflerPanel.Controls.Add(this.aperatif1);
-            this.aperatiflerPanel.Controls.Add(this.aperatif2);
-            this.aperatiflerPanel.Controls.Add(this.aperatif3);
-            this.aperatiflerPanel.Controls.Add(this.aperatif4);
-            this.aperatiflerPanel.Controls.Add(this.aperatif5);
-            this.aperatiflerPanel.Controls.Add(this.aperatif6);
-            this.aperatiflerPanel.Location = new System.Drawing.Point(551, 75);
-            this.aperatiflerPanel.Name = "aperatiflerPanel";
-            this.aperatiflerPanel.Size = new System.Drawing.Size(331, 381);
-            this.aperatiflerPanel.TabIndex = 43;
-            // 
-            // salatalarPanel
-            // 
-            this.salatalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.salatalarPanel.Controls.Add(this.salata1);
-            this.salatalarPanel.Controls.Add(this.salata2);
-            this.salatalarPanel.Controls.Add(this.salata3);
-            this.salatalarPanel.Controls.Add(this.salata4);
-            this.salatalarPanel.Controls.Add(this.salata5);
-            this.salatalarPanel.Controls.Add(this.salata6);
-            this.salatalarPanel.Location = new System.Drawing.Point(553, 75);
-            this.salatalarPanel.Name = "salatalarPanel";
-            this.salatalarPanel.Size = new System.Drawing.Size(331, 381);
-            this.salatalarPanel.TabIndex = 44;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // aperatif1
-            // 
-            this.aperatif1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif1.Image = global::PuniPos_2.Properties.Resources.patatesNormal;
-            this.aperatif1.Location = new System.Drawing.Point(3, 3);
-            this.aperatif1.Name = "aperatif1";
-            this.aperatif1.Size = new System.Drawing.Size(155, 122);
-            this.aperatif1.TabIndex = 32;
-            this.aperatif1.Text = "Patates Kızartması";
-            this.aperatif1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif1.UseVisualStyleBackColor = true;
-            this.aperatif1.Click += new System.EventHandler(this.aperatif1_Click);
-            // 
-            // aperatif2
-            // 
-            this.aperatif2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif2.Image = global::PuniPos_2.Properties.Resources.soğan;
-            this.aperatif2.Location = new System.Drawing.Point(164, 3);
-            this.aperatif2.Name = "aperatif2";
-            this.aperatif2.Size = new System.Drawing.Size(155, 122);
-            this.aperatif2.TabIndex = 33;
-            this.aperatif2.Text = "Soğan Halkası";
-            this.aperatif2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif2.UseVisualStyleBackColor = true;
-            this.aperatif2.Click += new System.EventHandler(this.aperatif2_Click);
-            // 
-            // aperatif3
-            // 
-            this.aperatif3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif3.Image = global::PuniPos_2.Properties.Resources.sigarabog;
-            this.aperatif3.Location = new System.Drawing.Point(3, 131);
-            this.aperatif3.Name = "aperatif3";
-            this.aperatif3.Size = new System.Drawing.Size(155, 122);
-            this.aperatif3.TabIndex = 34;
-            this.aperatif3.Text = "Sigara Böreği";
-            this.aperatif3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif3.UseVisualStyleBackColor = true;
-            this.aperatif3.Click += new System.EventHandler(this.aperatif3_Click);
-            // 
-            // aperatif4
-            // 
-            this.aperatif4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif4.Image = global::PuniPos_2.Properties.Resources.sostabagi;
-            this.aperatif4.Location = new System.Drawing.Point(164, 131);
-            this.aperatif4.Name = "aperatif4";
-            this.aperatif4.Size = new System.Drawing.Size(155, 122);
-            this.aperatif4.TabIndex = 35;
-            this.aperatif4.Text = "Sosis Tabağı";
-            this.aperatif4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif4.UseVisualStyleBackColor = true;
-            this.aperatif4.Click += new System.EventHandler(this.aperatif4_Click);
-            // 
-            // aperatif5
-            // 
-            this.aperatif5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif5.Image = global::PuniPos_2.Properties.Resources.borek;
-            this.aperatif5.Location = new System.Drawing.Point(3, 259);
-            this.aperatif5.Name = "aperatif5";
-            this.aperatif5.Size = new System.Drawing.Size(155, 122);
-            this.aperatif5.TabIndex = 36;
-            this.aperatif5.Text = "Börek";
-            this.aperatif5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif5.UseVisualStyleBackColor = true;
-            this.aperatif5.Click += new System.EventHandler(this.aperatif5_Click);
-            // 
-            // aperatif6
-            // 
-            this.aperatif6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aperatif6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.aperatif6.Image = global::PuniPos_2.Properties.Resources.combotabagi;
-            this.aperatif6.Location = new System.Drawing.Point(164, 259);
-            this.aperatif6.Name = "aperatif6";
-            this.aperatif6.Size = new System.Drawing.Size(155, 122);
-            this.aperatif6.TabIndex = 37;
-            this.aperatif6.Text = "Combo Tabak";
-            this.aperatif6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.aperatif6.UseVisualStyleBackColor = true;
-            this.aperatif6.Click += new System.EventHandler(this.aperatif6_Click);
             // 
             // corba1
             // 
@@ -804,85 +772,117 @@
             this.corba6.UseVisualStyleBackColor = true;
             this.corba6.Click += new System.EventHandler(this.corba6_Click);
             // 
-            // Hamburgerler1
+            // aperatiflerPanel
             // 
-            this.Hamburgerler1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler1.Image = global::PuniPos_2.Properties.Resources.tavukburger_sandvicv2;
-            this.Hamburgerler1.Location = new System.Drawing.Point(3, 3);
-            this.Hamburgerler1.Name = "Hamburgerler1";
-            this.Hamburgerler1.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler1.TabIndex = 32;
-            this.Hamburgerler1.Text = "Tavuk Burger";
-            this.Hamburgerler1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler1.UseVisualStyleBackColor = true;
-            this.Hamburgerler1.Click += new System.EventHandler(this.Hamburgerler1_Click);
+            this.aperatiflerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatiflerPanel.Controls.Add(this.aperatif1);
+            this.aperatiflerPanel.Controls.Add(this.aperatif2);
+            this.aperatiflerPanel.Controls.Add(this.aperatif3);
+            this.aperatiflerPanel.Controls.Add(this.aperatif4);
+            this.aperatiflerPanel.Controls.Add(this.aperatif5);
+            this.aperatiflerPanel.Controls.Add(this.aperatif6);
+            this.aperatiflerPanel.Location = new System.Drawing.Point(551, 75);
+            this.aperatiflerPanel.Name = "aperatiflerPanel";
+            this.aperatiflerPanel.Size = new System.Drawing.Size(331, 381);
+            this.aperatiflerPanel.TabIndex = 43;
             // 
-            // Hamburgerler2
+            // aperatif1
             // 
-            this.Hamburgerler2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler2.Image = global::PuniPos_2.Properties.Resources.et_burger1529153147_11;
-            this.Hamburgerler2.Location = new System.Drawing.Point(164, 3);
-            this.Hamburgerler2.Name = "Hamburgerler2";
-            this.Hamburgerler2.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler2.TabIndex = 33;
-            this.Hamburgerler2.Text = "Et Burger";
-            this.Hamburgerler2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler2.UseVisualStyleBackColor = true;
-            this.Hamburgerler2.Click += new System.EventHandler(this.Hamburgerler2_Click);
+            this.aperatif1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif1.Image = global::PuniPos_2.Properties.Resources.patatesNormal;
+            this.aperatif1.Location = new System.Drawing.Point(3, 3);
+            this.aperatif1.Name = "aperatif1";
+            this.aperatif1.Size = new System.Drawing.Size(155, 122);
+            this.aperatif1.TabIndex = 32;
+            this.aperatif1.Text = "Patates Kızartması";
+            this.aperatif1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif1.UseVisualStyleBackColor = true;
+            this.aperatif1.Click += new System.EventHandler(this.aperatif1_Click);
             // 
-            // Hamburgerler3
+            // aperatif2
             // 
-            this.Hamburgerler3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler3.Image = global::PuniPos_2.Properties.Resources.vej;
-            this.Hamburgerler3.Location = new System.Drawing.Point(3, 131);
-            this.Hamburgerler3.Name = "Hamburgerler3";
-            this.Hamburgerler3.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler3.TabIndex = 34;
-            this.Hamburgerler3.Text = "Vejeteryan Burger";
-            this.Hamburgerler3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler3.UseVisualStyleBackColor = true;
+            this.aperatif2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif2.Image = global::PuniPos_2.Properties.Resources.soğan;
+            this.aperatif2.Location = new System.Drawing.Point(164, 3);
+            this.aperatif2.Name = "aperatif2";
+            this.aperatif2.Size = new System.Drawing.Size(155, 122);
+            this.aperatif2.TabIndex = 33;
+            this.aperatif2.Text = "Soğan Halkası";
+            this.aperatif2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif2.UseVisualStyleBackColor = true;
+            this.aperatif2.Click += new System.EventHandler(this.aperatif2_Click);
             // 
-            // Hamburgerler4
+            // aperatif3
             // 
-            this.Hamburgerler4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler4.Image = global::PuniPos_2.Properties.Resources.balik;
-            this.Hamburgerler4.Location = new System.Drawing.Point(164, 131);
-            this.Hamburgerler4.Name = "Hamburgerler4";
-            this.Hamburgerler4.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler4.TabIndex = 35;
-            this.Hamburgerler4.Text = "Balık Burger";
-            this.Hamburgerler4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler4.UseVisualStyleBackColor = true;
+            this.aperatif3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif3.Image = global::PuniPos_2.Properties.Resources.sigarabog;
+            this.aperatif3.Location = new System.Drawing.Point(3, 131);
+            this.aperatif3.Name = "aperatif3";
+            this.aperatif3.Size = new System.Drawing.Size(155, 122);
+            this.aperatif3.TabIndex = 34;
+            this.aperatif3.Text = "Sigara Böreği";
+            this.aperatif3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif3.UseVisualStyleBackColor = true;
+            this.aperatif3.Click += new System.EventHandler(this.aperatif3_Click);
             // 
-            // Hamburgerler5
+            // aperatif4
             // 
-            this.Hamburgerler5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler5.Image = global::PuniPos_2.Properties.Resources.Cheeseburger;
-            this.Hamburgerler5.Location = new System.Drawing.Point(3, 259);
-            this.Hamburgerler5.Name = "Hamburgerler5";
-            this.Hamburgerler5.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler5.TabIndex = 36;
-            this.Hamburgerler5.Text = "Cheese Burger";
-            this.Hamburgerler5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler5.UseVisualStyleBackColor = true;
+            this.aperatif4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif4.Image = global::PuniPos_2.Properties.Resources.sostabagi;
+            this.aperatif4.Location = new System.Drawing.Point(164, 131);
+            this.aperatif4.Name = "aperatif4";
+            this.aperatif4.Size = new System.Drawing.Size(155, 122);
+            this.aperatif4.TabIndex = 35;
+            this.aperatif4.Text = "Sosis Tabağı";
+            this.aperatif4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif4.UseVisualStyleBackColor = true;
+            this.aperatif4.Click += new System.EventHandler(this.aperatif4_Click);
             // 
-            // Hamburgerler6
+            // aperatif5
             // 
-            this.Hamburgerler6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hamburgerler6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Hamburgerler6.Image = global::PuniPos_2.Properties.Resources.v2hawaii;
-            this.Hamburgerler6.Location = new System.Drawing.Point(164, 259);
-            this.Hamburgerler6.Name = "Hamburgerler6";
-            this.Hamburgerler6.Size = new System.Drawing.Size(155, 122);
-            this.Hamburgerler6.TabIndex = 37;
-            this.Hamburgerler6.Text = "Hawaii Burger";
-            this.Hamburgerler6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.Hamburgerler6.UseVisualStyleBackColor = true;
+            this.aperatif5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif5.Image = global::PuniPos_2.Properties.Resources.borek;
+            this.aperatif5.Location = new System.Drawing.Point(3, 259);
+            this.aperatif5.Name = "aperatif5";
+            this.aperatif5.Size = new System.Drawing.Size(155, 122);
+            this.aperatif5.TabIndex = 36;
+            this.aperatif5.Text = "Börek";
+            this.aperatif5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif5.UseVisualStyleBackColor = true;
+            this.aperatif5.Click += new System.EventHandler(this.aperatif5_Click);
+            // 
+            // aperatif6
+            // 
+            this.aperatif6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.aperatif6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.aperatif6.Image = global::PuniPos_2.Properties.Resources.combotabagi;
+            this.aperatif6.Location = new System.Drawing.Point(164, 259);
+            this.aperatif6.Name = "aperatif6";
+            this.aperatif6.Size = new System.Drawing.Size(155, 122);
+            this.aperatif6.TabIndex = 37;
+            this.aperatif6.Text = "Combo Tabak";
+            this.aperatif6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.aperatif6.UseVisualStyleBackColor = true;
+            this.aperatif6.Click += new System.EventHandler(this.aperatif6_Click);
+            // 
+            // salatalarPanel
+            // 
+            this.salatalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.salatalarPanel.Controls.Add(this.salata1);
+            this.salatalarPanel.Controls.Add(this.salata2);
+            this.salatalarPanel.Controls.Add(this.salata3);
+            this.salatalarPanel.Controls.Add(this.salata4);
+            this.salatalarPanel.Controls.Add(this.salata5);
+            this.salatalarPanel.Controls.Add(this.salata6);
+            this.salatalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.salatalarPanel.Name = "salatalarPanel";
+            this.salatalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.salatalarPanel.TabIndex = 44;
             // 
             // salata1
             // 
@@ -968,6 +968,115 @@
             this.salata6.UseVisualStyleBackColor = true;
             this.salata6.Click += new System.EventHandler(this.salata6_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pizalarPanel
+            // 
+            this.pizalarPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizalarPanel.Controls.Add(this.pizza1);
+            this.pizalarPanel.Controls.Add(this.pizza2);
+            this.pizalarPanel.Controls.Add(this.pizza3);
+            this.pizalarPanel.Controls.Add(this.pizza4);
+            this.pizalarPanel.Controls.Add(this.pizza5);
+            this.pizalarPanel.Controls.Add(this.pizza6);
+            this.pizalarPanel.Location = new System.Drawing.Point(553, 75);
+            this.pizalarPanel.Name = "pizalarPanel";
+            this.pizalarPanel.Size = new System.Drawing.Size(331, 381);
+            this.pizalarPanel.TabIndex = 40;
+            // 
+            // pizza1
+            // 
+            this.pizza1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza1.Location = new System.Drawing.Point(3, 3);
+            this.pizza1.Name = "pizza1";
+            this.pizza1.Size = new System.Drawing.Size(155, 122);
+            this.pizza1.TabIndex = 32;
+            this.pizza1.Text = "Karışık Pizza";
+            this.pizza1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza1.UseVisualStyleBackColor = true;
+            this.pizza1.Click += new System.EventHandler(this.pizza1_Click);
+            // 
+            // pizza2
+            // 
+            this.pizza2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza2.Image = global::PuniPos_2.Properties.Resources.et_burger1529153147_11;
+            this.pizza2.Location = new System.Drawing.Point(164, 3);
+            this.pizza2.Name = "pizza2";
+            this.pizza2.Size = new System.Drawing.Size(155, 122);
+            this.pizza2.TabIndex = 33;
+            this.pizza2.Text = "Mantarlı Pizza";
+            this.pizza2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza2.UseVisualStyleBackColor = true;
+            this.pizza2.Click += new System.EventHandler(this.pizza2_Click);
+            // 
+            // pizza3
+            // 
+            this.pizza3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza3.Image = global::PuniPos_2.Properties.Resources.vej;
+            this.pizza3.Location = new System.Drawing.Point(3, 131);
+            this.pizza3.Name = "pizza3";
+            this.pizza3.Size = new System.Drawing.Size(155, 122);
+            this.pizza3.TabIndex = 34;
+            this.pizza3.Text = "Karidesli Pizza";
+            this.pizza3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza3.UseVisualStyleBackColor = true;
+            this.pizza3.Click += new System.EventHandler(this.pizza3_Click);
+            // 
+            // pizza4
+            // 
+            this.pizza4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza4.Image = global::PuniPos_2.Properties.Resources.balik;
+            this.pizza4.Location = new System.Drawing.Point(164, 131);
+            this.pizza4.Name = "pizza4";
+            this.pizza4.Size = new System.Drawing.Size(155, 122);
+            this.pizza4.TabIndex = 35;
+            this.pizza4.Text = "Acılı Sucuklu Pizza";
+            this.pizza4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza4.UseVisualStyleBackColor = true;
+            this.pizza4.Click += new System.EventHandler(this.pizza4_Click);
+            // 
+            // pizza5
+            // 
+            this.pizza5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza5.Image = global::PuniPos_2.Properties.Resources.Cheeseburger;
+            this.pizza5.Location = new System.Drawing.Point(3, 259);
+            this.pizza5.Name = "pizza5";
+            this.pizza5.Size = new System.Drawing.Size(155, 122);
+            this.pizza5.TabIndex = 36;
+            this.pizza5.Text = "Sebzeli Pizza";
+            this.pizza5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza5.UseVisualStyleBackColor = true;
+            this.pizza5.Click += new System.EventHandler(this.pizza5_Click);
+            // 
+            // pizza6
+            // 
+            this.pizza6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pizza6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pizza6.Image = global::PuniPos_2.Properties.Resources.v2hawaii;
+            this.pizza6.Location = new System.Drawing.Point(164, 259);
+            this.pizza6.Name = "pizza6";
+            this.pizza6.Size = new System.Drawing.Size(155, 122);
+            this.pizza6.TabIndex = 37;
+            this.pizza6.Text = "Tavuklu Pizza";
+            this.pizza6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.pizza6.UseVisualStyleBackColor = true;
+            this.pizza6.Click += new System.EventHandler(this.pizza6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -980,6 +1089,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.drinkButton);
+            this.Controls.Add(this.pizalarPanel);
             this.Controls.Add(this.tatliButton);
             this.Controls.Add(this.balikButton);
             this.Controls.Add(this.tavukButton);
@@ -1019,6 +1129,7 @@
             this.aperatiflerPanel.ResumeLayout(false);
             this.salatalarPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pizalarPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1090,6 +1201,13 @@
         private System.Windows.Forms.Button salata4;
         private System.Windows.Forms.Button salata5;
         private System.Windows.Forms.Button salata6;
+        private System.Windows.Forms.FlowLayoutPanel pizalarPanel;
+        private System.Windows.Forms.Button pizza1;
+        private System.Windows.Forms.Button pizza2;
+        private System.Windows.Forms.Button pizza3;
+        private System.Windows.Forms.Button pizza4;
+        private System.Windows.Forms.Button pizza5;
+        private System.Windows.Forms.Button pizza6;
     }
 }
 

@@ -58,7 +58,7 @@ namespace PuniPos_2
                     break;
                 case 5:
                     DeActiveAllPanels();
-
+                    pizalarPanel.Show();
                     break;
                 case 6:
                     DeActiveAllPanels();
@@ -89,6 +89,7 @@ namespace PuniPos_2
             burgersPanel.Hide();
             aperatiflerPanel.Hide();
             salatalarPanel.Hide();
+            pizalarPanel.Hide();
         }
 
         //-------------------------------------
@@ -215,16 +216,7 @@ namespace PuniPos_2
         //---------------------------------------
 
         //------------Siparis Listesi--------------------
-        private void Hamburgerler1_Click(object sender, EventArgs e)
-        {
-
-            CreateItem(9101, 01, "Tavuk Burger", 19.30f);
-        }
-
-        private void Hamburgerler2_Click(object sender, EventArgs e)
-        {
-            CreateItem(9102, 01, "Et Burger", 22.50f);
-        }
+        
         //----------------Salatalar kategorisi--------------
         private void salata1_Click(object sender, EventArgs e)
         {
@@ -320,6 +312,66 @@ namespace PuniPos_2
             CreateItem(6106, 01, "Tarhana çorbası", 8.50f);
         }
         //----------------------------------------------------
+        //-----------------------Hamburgerler-------------
+        private void Hamburgerler1_Click(object sender, EventArgs e)
+        {
 
+            CreateItem(9101, 01, "Tavuk Burger", 19.30f);
+        }
+
+        private void Hamburgerler2_Click(object sender, EventArgs e)
+        {
+            CreateItem(9102, 01, "Et Burger", 22.50f);
+        }
+        private void Hamburgerler3_Click(object sender, EventArgs e)
+        {
+            CreateItem(9103, 01, "Vejeteryan Burger", 17.30f);
+        }
+
+        private void Hamburgerler4_Click(object sender, EventArgs e)
+        {
+            CreateItem(9104, 01, "Balık Burger", 19.30f);
+        }
+
+        private void Hamburgerler5_Click(object sender, EventArgs e)
+        {
+            CreateItem(9105, 01, "Cheese Burger", 16.30f);
+        }
+
+        private void Hamburgerler6_Click(object sender, EventArgs e)
+        {
+            CreateItem(9106, 01, "Hawaii Burger", 19.90f);
+        }
+        //---------------------------------------------
+        //-----------------Pizalar-----------------
+        private void pizza1_Click(object sender, EventArgs e)
+        {
+            CreateItem(5101, 01, "Karışık Pizza", 24.50f);
+        }
+
+        private void pizza2_Click(object sender, EventArgs e)
+        {
+            CreateItem(5102, 01, "Mantarlı Pizza", 21f);
+        }
+
+        private void pizza3_Click(object sender, EventArgs e)
+        {
+            CreateItem(5103, 01, "Karidesli Pizza", 24f);
+        }
+
+        private void pizza4_Click(object sender, EventArgs e)
+        {
+            CreateItem(5104, 01, "Acılı Sucuklu Pizza", 23f);
+        }
+
+        private void pizza5_Click(object sender, EventArgs e)
+        {
+            CreateItem(5105, 01, "Sebzeli Pizza", 22.50f);
+        }
+
+        private void pizza6_Click(object sender, EventArgs e)
+        {
+            CreateItem(5106, 01, "Tavuklu Pizza", 24.50f);
+        }
     }
 }
