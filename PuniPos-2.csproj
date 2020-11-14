@@ -146,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\türk-kahve.png" />
+    <None Include="Resources\asdwe.png" />
+    <None Include="Resources\sutas-ayran-300-ml-5332e71.jpg" />
+    <None Include="Resources\sutas-ayran-300-ml-5332e7.jpg" />
+    <None Include="Resources\sprite.jpg" />
+    <None Include="Resources\FANTA-KUTU.jpg" />
     <None Include="Resources\cola.jpg" />
     <None Include="Resources\profiterol.jpg" />
     <None Include="Resources\trilece.jpg" />

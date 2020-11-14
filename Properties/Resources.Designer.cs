@@ -83,6 +83,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asdwe {
+            get {
+                object obj = ResourceManager.GetObject("asdwe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap b_acili_bikori {
             get {
                 object obj = ResourceManager.GetObject("b_acili_bikori", resourceCulture);
@@ -196,6 +206,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap et_burger1529153147_11 {
             get {
                 object obj = ResourceManager.GetObject("et-burger1529153147_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FANTA_KUTU {
+            get {
+                object obj = ResourceManager.GetObject("FANTA-KUTU", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,6 +513,36 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sprite {
+            get {
+                object obj = ResourceManager.GetObject("sprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sutas_ayran_300_ml_5332e7 {
+            get {
+                object obj = ResourceManager.GetObject("sutas-ayran-300-ml-5332e7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sutas_ayran_300_ml_5332e71 {
+            get {
+                object obj = ResourceManager.GetObject("sutas-ayran-300-ml-5332e71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sutlac_gunu {
             get {
                 object obj = ResourceManager.GetObject("sutlac-gunu", resourceCulture);
@@ -586,6 +636,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap trilece {
             get {
                 object obj = ResourceManager.GetObject("trilece", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap türk_kahve {
+            get {
+                object obj = ResourceManager.GetObject("türk-kahve", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

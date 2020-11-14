@@ -752,6 +752,7 @@
             // 
             this.icecek2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.icecek2.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.icecek2.Image = global::PuniPos_2.Properties.Resources.FANTA_KUTU;
             this.icecek2.Location = new System.Drawing.Point(164, 3);
             this.icecek2.Name = "icecek2";
             this.icecek2.Size = new System.Drawing.Size(155, 122);
@@ -765,7 +766,7 @@
             // 
             this.icecek3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.icecek3.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.icecek3.Image = global::PuniPos_2.Properties.Resources.keskul;
+            this.icecek3.Image = global::PuniPos_2.Properties.Resources.sprite;
             this.icecek3.Location = new System.Drawing.Point(3, 131);
             this.icecek3.Name = "icecek3";
             this.icecek3.Size = new System.Drawing.Size(155, 122);
@@ -779,7 +780,7 @@
             // 
             this.icecek4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.icecek4.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.icecek4.Image = global::PuniPos_2.Properties.Resources.kabak_tatlisi;
+            this.icecek4.Image = global::PuniPos_2.Properties.Resources.sutas_ayran_300_ml_5332e71;
             this.icecek4.Location = new System.Drawing.Point(164, 131);
             this.icecek4.Name = "icecek4";
             this.icecek4.Size = new System.Drawing.Size(155, 122);
@@ -793,7 +794,7 @@
             // 
             this.icecek5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.icecek5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.icecek5.Image = global::PuniPos_2.Properties.Resources.trilece;
+            this.icecek5.Image = global::PuniPos_2.Properties.Resources.asdwe;
             this.icecek5.Location = new System.Drawing.Point(3, 259);
             this.icecek5.Name = "icecek5";
             this.icecek5.Size = new System.Drawing.Size(155, 122);
@@ -807,7 +808,7 @@
             // 
             this.icecek6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.icecek6.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.icecek6.Image = global::PuniPos_2.Properties.Resources.profiterol;
+            this.icecek6.Image = global::PuniPos_2.Properties.Resources.türk_kahve;
             this.icecek6.Location = new System.Drawing.Point(164, 259);
             this.icecek6.Name = "icecek6";
             this.icecek6.Size = new System.Drawing.Size(155, 122);
