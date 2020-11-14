@@ -78,7 +78,7 @@ namespace PuniPos_2
                     break;
                 case 10:
                     DeActiveAllPanels();
-
+                    menuPanel.Show();
                     break;
             }
         }
@@ -94,6 +94,7 @@ namespace PuniPos_2
             baliklarPanel.Hide();
             tatlilarPanel.Hide();
             iceceklerPanel.Hide();
+            menuPanel.Hide();
         }
 
         //-------------------------------------
@@ -166,6 +167,10 @@ namespace PuniPos_2
         private void button7_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ana menüye dön.", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sipariş bul geliştiriliyor.", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         //---------------Menu kategorileri-----------
         private void corbaButton_Click(object sender, EventArgs e)
@@ -501,5 +506,7 @@ namespace PuniPos_2
         {
             CreateItem(1106, 01, "Türk Kahvesi", 5f);
         }
+
+        
     }
 }

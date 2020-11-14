@@ -61,7 +61,6 @@
     <Compile Include="ListItem.Designer.cs">
       <DependentUpon>ListItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -146,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\images.jpg" />
     <None Include="Resources\türk-kahve.png" />
     <None Include="Resources\asdwe.png" />
     <None Include="Resources\sutas-ayran-300-ml-5332e71.jpg" />

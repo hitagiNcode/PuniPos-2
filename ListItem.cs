@@ -14,8 +14,6 @@ namespace PuniPos_2
     public partial class ListItem : UserControl
     {
 
-
-
         public ListItem()
         {
             InitializeComponent();
@@ -69,22 +67,17 @@ namespace PuniPos_2
                 anaForm.RemoveOrderFromList(ItemID);
                 
             }
-            else
-            {
-                //do nothing
-            }
+         
         }
 
         private void QuantityLabel_Click(object sender, EventArgs e)
         {
             ShowMessageBoxToRemoveIt();
-
         }
 
 
         private void NameLabel_Click(object sender, EventArgs e)
         {
-
             ShowMessageBoxToRemoveIt();
         }
 
@@ -92,5 +85,12 @@ namespace PuniPos_2
         {
             ShowMessageBoxToRemoveIt();
         }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            ShowMessageBoxToRemoveIt();
+        }
+
+
     }
 }

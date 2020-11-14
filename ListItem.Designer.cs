@@ -32,6 +32,7 @@
             this.NameLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.PriceLabel = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // QuantityLabel
@@ -81,6 +82,14 @@
             this.PriceLabel.Text = "TotalPrice";
             this.PriceLabel.Click += new System.EventHandler(this.PriceLabel_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(309, 25);
+            this.panel1.TabIndex = 4;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            // 
             // ListItem
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -90,6 +99,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.QuantityLabel);
+            this.Controls.Add(this.panel1);
             this.Name = "ListItem";
             this.Size = new System.Drawing.Size(309, 23);
             this.Load += new System.EventHandler(this.ListItem_Load);
@@ -104,5 +114,6 @@
         private System.Windows.Forms.Label NameLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label PriceLabel;
+        private System.Windows.Forms.Panel panel1;
     }
 }
