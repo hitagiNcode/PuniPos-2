@@ -118,77 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="türk-kahve" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\türk-kahve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hawai" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hawai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patatesNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patatesNormal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FANTA-KUTU" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FANTA-KUTU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavuklu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavuklu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iskembe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iskembe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cupra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cupra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="soğan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\soğan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="combotabagi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\combotabagi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tarhanaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarhanaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vej" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vej.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="karidelsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\karidelsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trilece" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trilece.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="profiterol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profiterol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sutas-ayran-300-ml-5332e71" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sutas-ayran-300-ml-5332e71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patates1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patates1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sigarabog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sigarabog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kunefe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kunefe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PuniposLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PuniposLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="acili sucuklu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\acili sucuklu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mantarli-pizza-1-8020c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mantarli-pizza-1-8020c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b_kremantar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_kremantar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lokanta-usulu-mercimek-corbasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lokanta-usulu-mercimek-corbasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cheeseburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cheeseburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iskembe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iskembe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sigarabog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sigarabog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdwe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lufer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lufer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavuk-corbasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavuk-corbasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PuniposLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PuniposLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nazik tavuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazik tavuk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karidelsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karidelsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="et-burger1529153147_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\et-burger1529153147_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sefin tavasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sefin tavasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="karides" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\karides.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,115 +160,160 @@
   <data name="palamut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\palamut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sebzali pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sebzali pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="et-burger1529153147_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\et-burger1529153147_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="börülce" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\börülce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="et-burger1529153147_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\et-burger1529153147_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mercan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mercan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kelle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavukburger-sandvic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavukburger-sandvic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavukburger-sandvic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavukburger-sandvic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="karisik-pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\karisik-pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="somon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\somon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hawai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hawai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="borek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavukburger-sandvicv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavukburger-sandvicv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavuk-corbasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavuk-corbasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="keskul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\keskul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="levrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\levrek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\balik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tavuklu-pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tavuklu-pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mercan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mercan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="akdeniz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\akdeniz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="v2hawaii" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\v2hawaii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sefin tavasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sefin tavasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nazik tavukkkk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nazik tavukkkk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b_chililokum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_chililokum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nazik tavuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nazik tavuk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="asdwe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asdwe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yayla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yayla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="börülce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\börülce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sutas-ayran-300-ml-5332e7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sutas-ayran-300-ml-5332e7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="combotabagi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\combotabagi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lokanta-usulu-mercimek-corbasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lokanta-usulu-mercimek-corbasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="soğan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soğan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sostabagi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sostabagi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="profiterol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profiterol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ton balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ton balik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tavukburger-sandvic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavukburger-sandvic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sutlac-gunu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sutlac-gunu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\balik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trilece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trilece.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cupra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cupra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v2hawaii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v2hawaii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nazik tavukkkk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazik tavukkkk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kabak-tatlisi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kabak-tatlisi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FANTA-KUTU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANTA-KUTU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="somon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\somon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantarli-pizza-1-8020c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantarli-pizza-1-8020c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keskul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keskul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acili sucuklu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acili sucuklu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="b_acili_bikori" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b_acili_bikori.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="et-burger1529153147_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\et-burger1529153147_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kunefe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kunefe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavukburger-sandvic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavukburger-sandvic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="levrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\levrek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavuklu-pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavuklu-pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="türk-kahve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\türk-kahve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vej" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vej.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavuklu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavuklu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sostabagi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sostabagi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="akdeniz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akdeniz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karisik-pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karisik-pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patatesNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patatesNormal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patates1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patates1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tavukburger-sandvicv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tavukburger-sandvicv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_chililokum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_chililokum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tarhanaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tarhanaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sebzali pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sebzali pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mercan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mercan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ton balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ton balik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mercan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mercan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PuniposLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PuniposLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sutas-ayran-300-ml-5332e71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sutas-ayran-300-ml-5332e71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="patates" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patates.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b_kremantar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_kremantar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sutlac-gunu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sutlac-gunu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yayla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yayla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="152-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\152-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kelle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-shiny-lines-white-gray-background_1017-25097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-shiny-lines-white-gray-background_1017-25097.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

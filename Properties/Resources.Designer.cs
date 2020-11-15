@@ -63,6 +63,26 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _152_512 {
+            get {
+                object obj = ResourceManager.GetObject("152-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap abstract_shiny_lines_white_gray_background_1017_25097 {
+            get {
+                object obj = ResourceManager.GetObject("abstract-shiny-lines-white-gray-background_1017-25097", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap acili_sucuklu {
             get {
                 object obj = ResourceManager.GetObject("acili sucuklu", resourceCulture);
@@ -456,6 +476,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap PuniposLogo {
             get {
                 object obj = ResourceManager.GetObject("PuniposLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PuniposLogo1 {
+            get {
+                object obj = ResourceManager.GetObject("PuniposLogo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
