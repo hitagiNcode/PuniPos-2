@@ -28,14 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.timeLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -51,7 +46,7 @@
             this.menuButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.tablaName = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.totalPrice = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
@@ -133,7 +128,6 @@
             this.menu4 = new System.Windows.Forms.Button();
             this.menu5 = new System.Windows.Forms.Button();
             this.menu6 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -147,21 +141,7 @@
             this.tatlilarPanel.SuspendLayout();
             this.iceceklerPanel.SuspendLayout();
             this.menuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // timeLabel
-            // 
-            this.timeLabel.AutoSize = true;
-            this.timeLabel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.timeLabel.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.timeLabel.Location = new System.Drawing.Point(790, 0);
-            this.timeLabel.Margin = new System.Windows.Forms.Padding(1);
-            this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(94, 15);
-            this.timeLabel.TabIndex = 1;
-            this.timeLabel.Text = "1 kasım 2020 salı";
             // 
             // button1
             // 
@@ -199,45 +179,6 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Fatura Yazdır";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button5.BackColor = System.Drawing.SystemColors.Control;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Location = new System.Drawing.Point(10, 471);
-            this.button5.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 28);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Klavye";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button6.BackColor = System.Drawing.SystemColors.Control;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Location = new System.Drawing.Point(105, 471);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(89, 28);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Tuş Takımı";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.BackColor = System.Drawing.SystemColors.Control;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Location = new System.Drawing.Point(783, 471);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(89, 28);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Ana Menü";
-            this.button7.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
@@ -437,7 +378,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.tablaName);
             this.panel1.Location = new System.Drawing.Point(126, 32);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(312, 37);
@@ -455,16 +396,16 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Durum: Yeni Sipariş";
             // 
-            // label2
+            // tablaName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label2.Location = new System.Drawing.Point(3, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Masa: 42B";
+            this.tablaName.AutoSize = true;
+            this.tablaName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tablaName.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.tablaName.Location = new System.Drawing.Point(3, 12);
+            this.tablaName.Name = "tablaName";
+            this.tablaName.Size = new System.Drawing.Size(60, 13);
+            this.tablaName.TabIndex = 0;
+            this.tablaName.Text = "Masa: 42B";
             // 
             // label4
             // 
@@ -1574,18 +1515,6 @@
             this.menu6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.menu6.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1615,14 +1544,9 @@
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.timeLabel);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.burgersPanel);
             this.Controls.Add(this.salatalarPanel);
             this.Controls.Add(this.aperatiflerPanel);
@@ -1647,22 +1571,14 @@
             this.tatlilarPanel.ResumeLayout(false);
             this.iceceklerPanel.ResumeLayout(false);
             this.menuPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
@@ -1678,7 +1594,7 @@
         private System.Windows.Forms.Button menuButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label tablaName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label totalPrice;
         private System.Windows.Forms.Button button21;

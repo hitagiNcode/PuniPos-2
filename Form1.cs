@@ -16,6 +16,10 @@ namespace PuniPos_2
         public List<ListItem> orderList;
         private float totalAmount = 0;
         
+        public void setTableName(string _name)
+        {
+            tablaName.Text = "Masa: " + _name;
+        }
 
         public Form1()
         {
@@ -26,7 +30,7 @@ namespace PuniPos_2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            timeLabel.Text = DateTime.Now.ToLongDateString();
+            
             orderList = new List<ListItem>();
             totalPrice.Text = totalAmount.ToString();
             ShowCategory(1);

@@ -61,6 +61,12 @@
     <Compile Include="ListItem.Designer.cs">
       <DependentUpon>ListItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="masalarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masalarForm.Designer.cs">
+      <DependentUpon>masalarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="menuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListItem.resx">
       <DependentUpon>ListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masalarForm.resx">
+      <DependentUpon>masalarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menuForm.resx">
       <DependentUpon>menuForm.cs</DependentUpon>
