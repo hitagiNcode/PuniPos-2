@@ -21,6 +21,7 @@ namespace PuniPos_2
         {
             anaMenuPanel.BackColor = Color.FromArgb(125, Color.Gray);
             timeLabel.Text = DateTime.Now.ToLongDateString();
+           
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -37,5 +38,12 @@ namespace PuniPos_2
         {
             MessageBox.Show("Tuş takımı yapılacak.", "PuniPuni Studios", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
     }
 }

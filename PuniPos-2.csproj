@@ -154,6 +154,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\iconfinder_Exit_728935.png" />
+    <None Include="Resources\iconfinder_Service Manager_18214.png" />
+    <None Include="Resources\iconfinder_24-7-live-support_4263521.png" />
+    <None Include="Resources\iconfinder_User_Accounts_100344.png" />
+    <None Include="Resources\iconfinder_advantage_diagram_1034357.png" />
+    <None Include="Resources\iconfinder_m-21_4230540.png" />
+    <None Include="Resources\iconfinder_education-school-memo-pad-notes-reminder-task_5854057.png" />
+    <None Include="Resources\posPng.png" />
+    <None Include="Resources\calendar-512.png" />
     <None Include="Resources\abstract-shiny-lines-white-gray-background_1017-25097.jpg" />
     <None Include="Resources\152-512.png" />
     <None Include="Resources\PuniposLogo.png" />

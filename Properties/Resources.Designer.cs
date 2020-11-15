@@ -173,6 +173,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendar_512 {
+            get {
+                object obj = ResourceManager.GetObject("calendar-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cheeseburger {
             get {
                 object obj = ResourceManager.GetObject("Cheeseburger", resourceCulture);
@@ -246,6 +256,76 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap hawai {
             get {
                 object obj = ResourceManager.GetObject("hawai", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_24_7_live_support_4263521 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_24-7-live-support_4263521", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_advantage_diagram_1034357 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_advantage_diagram_1034357", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_education_school_memo_pad_notes_reminder_task_5854057 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_education-school-memo-pad-notes-reminder-task_5854057", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Exit_728935 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Exit_728935", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_m_21_4230540 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_m-21_4230540", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Service_Manager_18214 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Service Manager_18214", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_User_Accounts_100344 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_User_Accounts_100344", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -456,6 +536,16 @@ namespace PuniPos_2.Properties {
         internal static System.Drawing.Bitmap patatesNormal {
             get {
                 object obj = ResourceManager.GetObject("patatesNormal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap posPng {
+            get {
+                object obj = ResourceManager.GetObject("posPng", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
