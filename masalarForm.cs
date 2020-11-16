@@ -12,9 +12,19 @@ namespace PuniPos_2
 {
     public partial class masalarForm : Form
     {
-        public masalarForm()
+        private menuForm _masterForm;
+        public masalarForm(menuForm masterform)
         {
             InitializeComponent();
+            _masterForm = masterform;
         }
+
+        private void masa1_Click(object sender, EventArgs e)
+        {
+            Form1 B1 = new Form1();
+            _masterForm.CreatePos(B1);
+        }
+
+       
     }
 }
