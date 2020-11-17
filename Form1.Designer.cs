@@ -31,9 +31,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.aperatifButton = new System.Windows.Forms.Button();
             this.salataButton = new System.Windows.Forms.Button();
             this.corbaButton = new System.Windows.Forms.Button();
@@ -128,6 +125,9 @@
             this.menu4 = new System.Windows.Forms.Button();
             this.menu5 = new System.Windows.Forms.Button();
             this.menu6 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -154,6 +154,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Masa Değiştir";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -179,48 +180,6 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Fatura Yazdır";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.SeaGreen;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button8.Location = new System.Drawing.Point(769, 32);
-            this.button8.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(105, 37);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Buton 3";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.BackColor = System.Drawing.Color.SeaGreen;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button9.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button9.Location = new System.Drawing.Point(660, 32);
-            this.button9.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(105, 37);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "Buton 2";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.BackColor = System.Drawing.Color.SeaGreen;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button10.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button10.Location = new System.Drawing.Point(551, 32);
-            this.button10.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(105, 37);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Buton 1";
-            this.button10.UseVisualStyleBackColor = false;
             // 
             // aperatifButton
             // 
@@ -466,8 +425,9 @@
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(92, 35);
             this.button23.TabIndex = 28;
-            this.button23.Text = "Kapat";
+            this.button23.Text = "İptal";
             this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -1515,6 +1475,51 @@
             this.menu6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.menu6.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button8.BackColor = System.Drawing.Color.SeaGreen;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button8.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button8.Location = new System.Drawing.Point(769, 32);
+            this.button8.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(105, 37);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "Ayran";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button9.BackColor = System.Drawing.Color.SeaGreen;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button9.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button9.Location = new System.Drawing.Point(660, 32);
+            this.button9.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(105, 37);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "Çay";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button10.BackColor = System.Drawing.Color.SeaGreen;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button10.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button10.Location = new System.Drawing.Point(551, 32);
+            this.button10.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(105, 37);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Su";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1579,9 +1584,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button aperatifButton;
         private System.Windows.Forms.Button salataButton;
         private System.Windows.Forms.Button corbaButton;
@@ -1676,6 +1678,9 @@
         private System.Windows.Forms.Button menu4;
         private System.Windows.Forms.Button menu5;
         private System.Windows.Forms.Button menu6;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }
 

@@ -12,20 +12,30 @@ namespace PuniPos_2
 {
     public partial class Form1 : Form
     {
-        
+        private menuForm _masterForm;
+        private masalarForm _masaForm;
+
         public List<ListItem> orderList;
         private float totalAmount = 0;
-        
-        public void setTableName(string _name)
+
+
+        private string masaName;
+        public string MasaName
         {
-            tablaName.Text = "Masa: " + _name;
+            get { return masaName; }
+            set { masaName = value; }
         }
 
-        public Form1(string _name)
+
+
+        public Form1(string _name, menuForm masterPanel, masalarForm masaform)
         {
             
             InitializeComponent();
+            _masterForm = masterPanel;
+            _masaForm = masaform;
             tablaName.Text = "Masa: " + _name;
+            MasaName = _name;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -143,6 +153,12 @@ namespace PuniPos_2
               
             }
             TotalAmountCalculation();
+        }
+
+        public void ClearAndUpdateList()
+        {
+            orderList.Clear();
+            UpdateList();
         }
 
         private void TotalAmountCalculation()
@@ -511,6 +527,30 @@ namespace PuniPos_2
             CreateItem(1106, 01, "Türk Kahvesi", 5f);
         }
 
-       
+        private void button23_Click(object sender, EventArgs e)
+        {
+            _masterForm.CancelOrder(this);
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _masterForm.ShowMasalar();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            CreateItem(1104, 01, "Ayran", 2.50f);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            CreateItem(1105, 01, "Çay", 3f);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            CreateItem(1100, 01, "Su", 1.5f);
+        }
     }
 }

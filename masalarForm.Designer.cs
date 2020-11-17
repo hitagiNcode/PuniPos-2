@@ -75,7 +75,7 @@
             // 
             this.masa1.BackColor = System.Drawing.Color.SeaShell;
             this.masa1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.masa1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.masa1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.masa1.Location = new System.Drawing.Point(3, 3);
             this.masa1.Name = "masa1";
             this.masa1.Size = new System.Drawing.Size(137, 95);
@@ -88,7 +88,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.SeaShell;
             this.button1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button1.Location = new System.Drawing.Point(146, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 95);
@@ -101,7 +101,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.SeaShell;
             this.button2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button2.Location = new System.Drawing.Point(289, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 95);
@@ -113,7 +113,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.SeaShell;
             this.button3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button3.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button3.Location = new System.Drawing.Point(432, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(137, 95);
@@ -125,7 +125,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.SeaShell;
             this.button4.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button4.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button4.Location = new System.Drawing.Point(575, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(137, 95);
@@ -137,7 +137,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.SeaShell;
             this.button5.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button5.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button5.Location = new System.Drawing.Point(3, 104);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(137, 95);
@@ -149,7 +149,7 @@
             // 
             this.button6.BackColor = System.Drawing.Color.SeaShell;
             this.button6.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button6.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button6.Location = new System.Drawing.Point(146, 104);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(137, 95);
@@ -161,7 +161,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.SeaShell;
             this.button7.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button7.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button7.Location = new System.Drawing.Point(289, 104);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(137, 95);
@@ -173,7 +173,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.SeaShell;
             this.button8.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button8.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button8.Location = new System.Drawing.Point(432, 104);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(137, 95);
@@ -185,7 +185,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.SeaShell;
             this.button9.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button9.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button9.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button9.Location = new System.Drawing.Point(575, 104);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(137, 95);
@@ -197,7 +197,7 @@
             // 
             this.button10.BackColor = System.Drawing.Color.SeaShell;
             this.button10.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button10.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button10.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button10.Location = new System.Drawing.Point(3, 205);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(137, 95);
@@ -209,7 +209,7 @@
             // 
             this.button11.BackColor = System.Drawing.Color.SeaShell;
             this.button11.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button11.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button11.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button11.Location = new System.Drawing.Point(146, 205);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(137, 95);
@@ -221,7 +221,7 @@
             // 
             this.button12.BackColor = System.Drawing.Color.SeaShell;
             this.button12.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button12.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button12.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button12.Location = new System.Drawing.Point(289, 205);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(137, 95);
@@ -233,7 +233,7 @@
             // 
             this.button13.BackColor = System.Drawing.Color.SeaShell;
             this.button13.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button13.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button13.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button13.Location = new System.Drawing.Point(432, 205);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(137, 95);
@@ -245,7 +245,7 @@
             // 
             this.button14.BackColor = System.Drawing.Color.SeaShell;
             this.button14.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button14.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button14.ForeColor = System.Drawing.Color.DodgerBlue;
             this.button14.Location = new System.Drawing.Point(575, 205);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(137, 95);

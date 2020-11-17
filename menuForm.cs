@@ -15,6 +15,9 @@ namespace PuniPos_2
 
         Panel masaPanel = new Panel();
         Panel posPanel2 = new Panel();
+        masalarForm masalar;
+
+        private List<MasaList> masaListesi;
 
         public menuForm()
         {
@@ -25,7 +28,7 @@ namespace PuniPos_2
         {
             anaMenuPanel.BackColor = Color.FromArgb(125, Color.Gray);
             timeLabel.Text = DateTime.Now.ToLongDateString();
-            
+            masaListesi = new List<MasaList>();
 
             masalarPanelCreate();
             posPanelCreate();
@@ -63,17 +66,20 @@ namespace PuniPos_2
             masaPanel.Hide();
             anaMenuPanel.Hide();
             posPanel2.Hide();
-            
+            hidePospanel();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DisablePanels();
-            masaPanel.Show();
-            
+            ShowMasalar();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            ShowMasalar();
+        }
+
+        public void ShowMasalar()
         {
             DisablePanels();
             masaPanel.Show();
@@ -96,20 +102,19 @@ namespace PuniPos_2
 
         public void CreatePos(Form1 _tableName, Button _button)
         {
-            hidePospanel();
+            
             _button.ForeColor = Color.White;
             _button.BackColor = Color.Orange;
             DisablePanels();
             posPanel2.Show();
-
-
 
             _tableName.TopLevel = false;
             _tableName.AutoScroll = true;
             _tableName.Dock = DockStyle.Fill;
             _tableName.FormBorderStyle = FormBorderStyle.None;
             posPanel2.Controls.Add(_tableName);
-
+            
+            masaListesi.Add(new MasaList() {masaName = _tableName.MasaName, masaForm = _tableName, masaButton = _button });
             _tableName.Show();
         }
 
@@ -118,7 +123,7 @@ namespace PuniPos_2
             DisablePanels();
             posPanel2.Show();
 
-            hidePospanel();
+            
             _tableName.Show();
         }
 
@@ -143,7 +148,7 @@ namespace PuniPos_2
 
         private void createMasalarForm()
         {
-            masalarForm masalar = new masalarForm(this);
+            masalar = new masalarForm(this);
             masalar.TopLevel = false;
             masalar.AutoScroll = true;
             masalar.Dock = DockStyle.Fill;
@@ -161,6 +166,29 @@ namespace PuniPos_2
             posPanel2.Anchor = (AnchorStyles.Bottom | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Left);
             posPanel2.Show();
         }
+
+        public void CancelOrder(Form1 _form)
+        {
+            if (MessageBox.Show(_form.MasaName + " masasını iptal etmek ister misiniz ?", "Sipariş iptal", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                posPanel2.Controls.Remove(_form);
+                _form.ClearAndUpdateList();
+                var masa = masaListesi.Find(x => x.masaName == _form.MasaName);
+                masa.masaButton.BackColor = Color.SeaShell;
+                masa.masaButton.ForeColor = Color.DodgerBlue;
+
+                masaListesi.Remove(masa);
+                ShowMasalar();
+            }
+        }
+
+    }
+
+    public class MasaList
+    {
+        public string masaName;
+        public Form1 masaForm;
+        public Button masaButton;
 
     }
 }
