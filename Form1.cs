@@ -158,7 +158,7 @@ namespace PuniPos_2
         public void ClearAndUpdateList()
         {
             orderList.Clear();
-            UpdateList();
+            flowLayoutPanel1.Controls.Clear();
         }
 
         private void TotalAmountCalculation()
