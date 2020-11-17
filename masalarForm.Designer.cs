@@ -70,7 +70,6 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(720, 312);
             this.flowLayoutPanel2.TabIndex = 1;
-            
             // 
             // masa1
             // 
@@ -96,6 +95,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "B2";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 

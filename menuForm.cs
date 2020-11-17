@@ -79,23 +79,56 @@ namespace PuniPos_2
             masaPanel.Show();
         }
 
-
-        public void CreatePos(Form1 _tableName)
+        public void CheckPos(Form1 _tableName , Button _button)
         {
-            //Form1 tableB6 = new Form1();
+            if (_button.BackColor == Color.Orange)
+            {
+                ClearPospanelAndShow(_tableName);
+            }
+            else
+            {
+                CreatePos(_tableName, _button);
+            }
 
+
+        }
+
+
+        public void CreatePos(Form1 _tableName, Button _button)
+        {
+            hidePospanel();
+            _button.ForeColor = Color.White;
+            _button.BackColor = Color.Orange;
             DisablePanels();
             posPanel2.Show();
+
+
 
             _tableName.TopLevel = false;
             _tableName.AutoScroll = true;
             _tableName.Dock = DockStyle.Fill;
-            posPanel2.Controls.Add(_tableName);
             _tableName.FormBorderStyle = FormBorderStyle.None;
+            posPanel2.Controls.Add(_tableName);
+
             _tableName.Show();
         }
 
-       
+        public void ClearPospanelAndShow(Form1 _tableName)
+        {
+            DisablePanels();
+            posPanel2.Show();
+
+            hidePospanel();
+            _tableName.Show();
+        }
+
+        private void hidePospanel()
+        {
+            for (int i = 0; i < posPanel2.Controls.Count; i++)
+            {
+                posPanel2.Controls[i].Hide();
+            }
+        }
 
         private void masalarPanelCreate()
         {
@@ -105,10 +138,10 @@ namespace PuniPos_2
             masaPanel.Location = new Point(85, 85);
             masaPanel.Anchor = (AnchorStyles.Bottom | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Left);
             masaPanel.Show();
-            createMasalar();
+            createMasalarForm();
         }
 
-        private void createMasalar()
+        private void createMasalarForm()
         {
             masalarForm masalar = new masalarForm(this);
             masalar.TopLevel = false;

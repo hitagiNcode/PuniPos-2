@@ -21,11 +21,11 @@ namespace PuniPos_2
             tablaName.Text = "Masa: " + _name;
         }
 
-        public Form1()
+        public Form1(string _name)
         {
             
             InitializeComponent();
-            
+            tablaName.Text = "Masa: " + _name;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -511,6 +511,6 @@ namespace PuniPos_2
             CreateItem(1106, 01, "Türk Kahvesi", 5f);
         }
 
-        
+       
     }
 }

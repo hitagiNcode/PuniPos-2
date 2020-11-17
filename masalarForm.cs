@@ -12,6 +12,8 @@ namespace PuniPos_2
 {
     public partial class masalarForm : Form
     {
+        Form1 B1 = new Form1("B1");
+        Form1 B2 = new Form1("B2");
         private menuForm _masterForm;
         public masalarForm(menuForm masterform)
         {
@@ -21,10 +23,15 @@ namespace PuniPos_2
 
         private void masa1_Click(object sender, EventArgs e)
         {
-            Form1 B1 = new Form1();
-            _masterForm.CreatePos(B1);
+            
+            _masterForm.CheckPos(B1, masa1);
+            
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            _masterForm.CheckPos(B2, button1);
+        }
     }
 }
