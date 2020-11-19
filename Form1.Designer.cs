@@ -128,6 +128,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.faturaPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.burgersPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -180,6 +181,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Fatura Yazdır";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // aperatifButton
             // 
@@ -414,6 +416,7 @@
             this.button22.TabIndex = 27;
             this.button22.Text = "Nakit";
             this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button23
             // 
@@ -441,6 +444,7 @@
             this.button24.TabIndex = 29;
             this.button24.Text = "Kredi Kartı";
             this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -1414,6 +1418,7 @@
             this.menu1.Text = "Öğrenci Menü";
             this.menu1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.menu1.UseVisualStyleBackColor = true;
+            this.menu1.Click += new System.EventHandler(this.menu1_Click);
             // 
             // menu2
             // 
@@ -1520,12 +1525,24 @@
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // faturaPanel
+            // 
+            this.faturaPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.faturaPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.faturaPanel.Location = new System.Drawing.Point(125, 12);
+            this.faturaPanel.Name = "faturaPanel";
+            this.faturaPanel.Size = new System.Drawing.Size(759, 487);
+            this.faturaPanel.TabIndex = 46;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.faturaPanel);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -1681,6 +1698,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Panel faturaPanel;
     }
 }
 

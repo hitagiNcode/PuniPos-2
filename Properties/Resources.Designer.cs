@@ -453,6 +453,16 @@ namespace PuniPos_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Maliye_Bakanligi_34_logo_780C8478CC_seeklogo_com {
+            get {
+                object obj = ResourceManager.GetObject("Maliye_Bakanligi_34-logo-780C8478CC-seeklogo.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mantarli_pizza_1_8020c {
             get {
                 object obj = ResourceManager.GetObject("mantarli-pizza-1-8020c", resourceCulture);

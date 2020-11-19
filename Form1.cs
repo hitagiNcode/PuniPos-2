@@ -552,5 +552,25 @@ namespace PuniPos_2
         {
             CreateItem(1100, 01, "Su", 1.5f);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menu1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hızlı Nakit ödeme yapıldı fiş yazdırılıyor");
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pos cihazına fiyat gönderildi ödeme bekleniyor.");
+        }
     }
 }
