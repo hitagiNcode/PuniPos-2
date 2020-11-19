@@ -57,6 +57,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.printBillButton = new System.Windows.Forms.Button();
+            this.faturaCancelButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -97,7 +99,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(17, 21);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(347, 440);
+            this.panel1.Size = new System.Drawing.Size(347, 432);
             this.panel1.TabIndex = 7;
             // 
             // textBox1
@@ -240,6 +242,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.textBox6);
@@ -256,7 +260,7 @@
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Location = new System.Drawing.Point(16, 96);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(313, 314);
+            this.panel2.Size = new System.Drawing.Size(313, 333);
             this.panel2.TabIndex = 20;
             // 
             // label12
@@ -346,21 +350,53 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(4, 109);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(304, 159);
+            this.dataGridView1.Size = new System.Drawing.Size(304, 178);
             this.dataGridView1.TabIndex = 25;
+            // 
+            // printBillButton
+            // 
+            this.printBillButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.printBillButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.printBillButton.ForeColor = System.Drawing.Color.Snow;
+            this.printBillButton.Location = new System.Drawing.Point(386, 41);
+            this.printBillButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.printBillButton.Name = "printBillButton";
+            this.printBillButton.Size = new System.Drawing.Size(109, 37);
+            this.printBillButton.TabIndex = 10;
+            this.printBillButton.Text = "Faturayı Yazdır";
+            this.printBillButton.UseVisualStyleBackColor = false;
+            this.printBillButton.Click += new System.EventHandler(this.printBillButton_Click);
+            // 
+            // faturaCancelButton
+            // 
+            this.faturaCancelButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.faturaCancelButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.faturaCancelButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.faturaCancelButton.Location = new System.Drawing.Point(386, 89);
+            this.faturaCancelButton.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
+            this.faturaCancelButton.Name = "faturaCancelButton";
+            this.faturaCancelButton.Size = new System.Drawing.Size(109, 37);
+            this.faturaCancelButton.TabIndex = 11;
+            this.faturaCancelButton.Text = "Fatura İptal";
+            this.faturaCancelButton.UseVisualStyleBackColor = false;
+            this.faturaCancelButton.Click += new System.EventHandler(this.faturaCancelButton_Click);
             // 
             // billModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.faturaCancelButton);
+            this.Controls.Add(this.printBillButton);
             this.Controls.Add(this.panel1);
             this.Name = "billModule";
-            this.Size = new System.Drawing.Size(391, 491);
+            this.Size = new System.Drawing.Size(513, 491);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -402,5 +438,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button printBillButton;
+        private System.Windows.Forms.Button faturaCancelButton;
     }
 }

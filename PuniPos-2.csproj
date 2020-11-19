@@ -172,6 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <None Include="Resources\Maliye_Bakanligi_34-logo-780C8478CC-seeklogo.com.png" />
     <None Include="Resources\iconfinder_Exit_728935.png" />
     <None Include="Resources\iconfinder_Service Manager_18214.png" />
     <None Include="Resources\iconfinder_24-7-live-support_4263521.png" />

@@ -14,6 +14,7 @@ namespace PuniPos_2
     {
         private menuForm _masterForm;
         private masalarForm _masaForm;
+        private billModule _billModule;
 
         public List<ListItem> orderList;
         private float totalAmount = 0;
@@ -32,6 +33,7 @@ namespace PuniPos_2
         {
             
             InitializeComponent();
+            _billModule = new billModule(this);
             _masterForm = masterPanel;
             _masaForm = masaform;
             tablaName.Text = "Masa: " + _name;
@@ -555,7 +557,7 @@ namespace PuniPos_2
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            _billModule.ShowFaturaPanel();
         }
 
         private void menu1_Click(object sender, EventArgs e)
