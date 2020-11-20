@@ -73,7 +73,24 @@ namespace PuniPos_2
             {
                 billDataTable.Rows.Add(item.Title, item.Quantity +" Adet", item.Price + " TL");
             }
+
+            float totalS = _masterForm.totalAmount;
+            string s = totalS.ToString("N2");
+            gtoplamText.Text = s;
+
+            float kdv = totalS * 8 / 100;
+            string k = kdv.ToString("N2");
+            kdvText.Text = k;
+
+            float toplam = totalS - kdv;
+            string t = toplam.ToString("N2");
+            toplamText.Text = t;
+
         }
 
+        private void toplamText_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

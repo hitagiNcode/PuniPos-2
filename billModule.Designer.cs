@@ -31,8 +31,18 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.gtoplamText = new System.Windows.Forms.Label();
+            this.kdvText = new System.Windows.Forms.Label();
+            this.toplamText = new System.Windows.Forms.Label();
+            this.genelToplamLabel = new System.Windows.Forms.Label();
+            this.kdvLabel = new System.Windows.Forms.Label();
+            this.toplamLabel = new System.Windows.Forms.Label();
             this.billDataTable = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -59,16 +69,6 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.printBillButton = new System.Windows.Forms.Button();
             this.faturaCancelButton = new System.Windows.Forms.Button();
-            this.dateLabel = new System.Windows.Forms.Label();
-            this.toplamLabel = new System.Windows.Forms.Label();
-            this.kdvLabel = new System.Windows.Forms.Label();
-            this.genelToplamLabel = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toplamText = new System.Windows.Forms.Label();
-            this.kdvText = new System.Windows.Forms.Label();
-            this.gtoplamText = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.billDataTable)).BeginInit();
@@ -113,6 +113,17 @@
             this.panel1.Size = new System.Drawing.Size(347, 432);
             this.panel1.TabIndex = 7;
             // 
+            // dateLabel
+            // 
+            this.dateLabel.AutoSize = true;
+            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateLabel.Location = new System.Drawing.Point(237, 84);
+            this.dateLabel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 0);
+            this.dateLabel.Name = "dateLabel";
+            this.dateLabel.Size = new System.Drawing.Size(20, 9);
+            this.dateLabel.TabIndex = 21;
+            this.dateLabel.Text = "tarih";
+            // 
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -142,6 +153,73 @@
             this.panel2.Size = new System.Drawing.Size(313, 333);
             this.panel2.TabIndex = 20;
             // 
+            // gtoplamText
+            // 
+            this.gtoplamText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.gtoplamText.AutoSize = true;
+            this.gtoplamText.Location = new System.Drawing.Point(265, 315);
+            this.gtoplamText.Margin = new System.Windows.Forms.Padding(1, 0, 3, 3);
+            this.gtoplamText.Name = "gtoplamText";
+            this.gtoplamText.Size = new System.Drawing.Size(41, 13);
+            this.gtoplamText.TabIndex = 31;
+            this.gtoplamText.Text = "105 TL";
+            // 
+            // kdvText
+            // 
+            this.kdvText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.kdvText.AutoSize = true;
+            this.kdvText.Location = new System.Drawing.Point(148, 315);
+            this.kdvText.Margin = new System.Windows.Forms.Padding(1, 0, 3, 3);
+            this.kdvText.Name = "kdvText";
+            this.kdvText.Size = new System.Drawing.Size(35, 13);
+            this.kdvText.TabIndex = 30;
+            this.kdvText.Text = "10 TL";
+            // 
+            // toplamText
+            // 
+            this.toplamText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.toplamText.AutoSize = true;
+            this.toplamText.Location = new System.Drawing.Point(55, 315);
+            this.toplamText.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.toplamText.Name = "toplamText";
+            this.toplamText.Size = new System.Drawing.Size(35, 13);
+            this.toplamText.TabIndex = 29;
+            this.toplamText.Text = "95 TL";
+            this.toplamText.Click += new System.EventHandler(this.toplamText_Click);
+            // 
+            // genelToplamLabel
+            // 
+            this.genelToplamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.genelToplamLabel.AutoSize = true;
+            this.genelToplamLabel.Location = new System.Drawing.Point(201, 315);
+            this.genelToplamLabel.Margin = new System.Windows.Forms.Padding(3, 0, 1, 3);
+            this.genelToplamLabel.Name = "genelToplamLabel";
+            this.genelToplamLabel.Size = new System.Drawing.Size(62, 13);
+            this.genelToplamLabel.TabIndex = 28;
+            this.genelToplamLabel.Text = "G .Toplam :";
+            // 
+            // kdvLabel
+            // 
+            this.kdvLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.kdvLabel.AutoSize = true;
+            this.kdvLabel.Location = new System.Drawing.Point(106, 315);
+            this.kdvLabel.Margin = new System.Windows.Forms.Padding(3, 0, 1, 3);
+            this.kdvLabel.Name = "kdvLabel";
+            this.kdvLabel.Size = new System.Drawing.Size(40, 13);
+            this.kdvLabel.TabIndex = 27;
+            this.kdvLabel.Text = "KDV %";
+            // 
+            // toplamLabel
+            // 
+            this.toplamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.toplamLabel.AutoSize = true;
+            this.toplamLabel.Location = new System.Drawing.Point(3, 315);
+            this.toplamLabel.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.toplamLabel.Name = "toplamLabel";
+            this.toplamLabel.Size = new System.Drawing.Size(48, 13);
+            this.toplamLabel.TabIndex = 26;
+            this.toplamLabel.Text = "Toplam :";
+            // 
             // billDataTable
             // 
             this.billDataTable.AllowUserToAddRows = false;
@@ -160,6 +238,27 @@
             this.billDataTable.RowHeadersVisible = false;
             this.billDataTable.Size = new System.Drawing.Size(305, 203);
             this.billDataTable.TabIndex = 25;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "İsim";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 150;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Miktar";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 62;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Fiyat";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 90;
             // 
             // textBox6
             // 
@@ -411,104 +510,6 @@
             this.faturaCancelButton.Text = "Fatura İptal";
             this.faturaCancelButton.UseVisualStyleBackColor = false;
             this.faturaCancelButton.Click += new System.EventHandler(this.faturaCancelButton_Click);
-            // 
-            // dateLabel
-            // 
-            this.dateLabel.AutoSize = true;
-            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateLabel.Location = new System.Drawing.Point(237, 84);
-            this.dateLabel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 0);
-            this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(20, 9);
-            this.dateLabel.TabIndex = 21;
-            this.dateLabel.Text = "tarih";
-            // 
-            // toplamLabel
-            // 
-            this.toplamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.toplamLabel.AutoSize = true;
-            this.toplamLabel.Location = new System.Drawing.Point(3, 315);
-            this.toplamLabel.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.toplamLabel.Name = "toplamLabel";
-            this.toplamLabel.Size = new System.Drawing.Size(48, 13);
-            this.toplamLabel.TabIndex = 26;
-            this.toplamLabel.Text = "Toplam :";
-            // 
-            // kdvLabel
-            // 
-            this.kdvLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.kdvLabel.AutoSize = true;
-            this.kdvLabel.Location = new System.Drawing.Point(106, 315);
-            this.kdvLabel.Margin = new System.Windows.Forms.Padding(3, 0, 1, 3);
-            this.kdvLabel.Name = "kdvLabel";
-            this.kdvLabel.Size = new System.Drawing.Size(40, 13);
-            this.kdvLabel.TabIndex = 27;
-            this.kdvLabel.Text = "KDV %";
-            // 
-            // genelToplamLabel
-            // 
-            this.genelToplamLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.genelToplamLabel.AutoSize = true;
-            this.genelToplamLabel.Location = new System.Drawing.Point(201, 315);
-            this.genelToplamLabel.Margin = new System.Windows.Forms.Padding(3, 0, 1, 3);
-            this.genelToplamLabel.Name = "genelToplamLabel";
-            this.genelToplamLabel.Size = new System.Drawing.Size(62, 13);
-            this.genelToplamLabel.TabIndex = 28;
-            this.genelToplamLabel.Text = "G .Toplam :";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "İsim";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 150;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Miktar";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 62;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Fiyat";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 90;
-            // 
-            // toplamText
-            // 
-            this.toplamText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.toplamText.AutoSize = true;
-            this.toplamText.Location = new System.Drawing.Point(55, 315);
-            this.toplamText.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.toplamText.Name = "toplamText";
-            this.toplamText.Size = new System.Drawing.Size(35, 13);
-            this.toplamText.TabIndex = 29;
-            this.toplamText.Text = "95 TL";
-            // 
-            // kdvText
-            // 
-            this.kdvText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.kdvText.AutoSize = true;
-            this.kdvText.Location = new System.Drawing.Point(148, 315);
-            this.kdvText.Margin = new System.Windows.Forms.Padding(1, 0, 3, 3);
-            this.kdvText.Name = "kdvText";
-            this.kdvText.Size = new System.Drawing.Size(35, 13);
-            this.kdvText.TabIndex = 30;
-            this.kdvText.Text = "10 TL";
-            // 
-            // gtoplamText
-            // 
-            this.gtoplamText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.gtoplamText.AutoSize = true;
-            this.gtoplamText.Location = new System.Drawing.Point(265, 315);
-            this.gtoplamText.Margin = new System.Windows.Forms.Padding(1, 0, 3, 3);
-            this.gtoplamText.Name = "gtoplamText";
-            this.gtoplamText.Size = new System.Drawing.Size(41, 13);
-            this.gtoplamText.TabIndex = 31;
-            this.gtoplamText.Text = "105 TL";
             // 
             // billModule
             // 

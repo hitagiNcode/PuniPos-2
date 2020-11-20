@@ -13,11 +13,11 @@ namespace PuniPos_2
     public partial class Form1 : Form
     {
         private menuForm _masterForm;
-        private masalarForm _masaForm;
+        
         private billModule _billModule;
 
         public List<ListItem> orderList;
-        private float totalAmount = 0;
+        public float totalAmount = 0;
 
 
         private string masaName;
@@ -35,7 +35,7 @@ namespace PuniPos_2
             InitializeComponent();
             _billModule = new billModule(this);
             _masterForm = masterPanel;
-            _masaForm = masaform;
+            
             tablaName.Text = "Masa: " + _name;
             MasaName = _name;
         }
