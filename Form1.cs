@@ -558,6 +558,7 @@ namespace PuniPos_2
         private void button4_Click(object sender, EventArgs e)
         {
             _billModule.ShowFaturaPanel();
+            
         }
 
         private void menu1_Click(object sender, EventArgs e)

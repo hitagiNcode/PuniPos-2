@@ -14,6 +14,8 @@ namespace PuniPos_2
     {
         public Panel faturaPanel;
         private Form1 _masterForm;
+       
+
         public billModule(Form1 masterform)
         {
 
@@ -21,18 +23,21 @@ namespace PuniPos_2
             faturaPanel = new Panel();
             _masterForm = masterform;
             CreateFaturaPanel();
+            
         }
 
 
         public void HideFaturaPanel()
         {
             faturaPanel.Hide();
+            
         }
 
         public void ShowFaturaPanel()
         {
             faturaPanel.BringToFront();
             faturaPanel.Show();
+            pullOrders();
         }
 
         public void CreateFaturaPanel()
@@ -45,6 +50,7 @@ namespace PuniPos_2
             faturaPanel.Controls.Add(this);
             this.Dock = DockStyle.Left;
             faturaPanel.Hide();
+            dateLabel.Text = DateTime.Now.ToLongDateString();
             
         }
 
@@ -58,5 +64,16 @@ namespace PuniPos_2
         {
             faturaPanel.Hide();
         }
+
+        private void pullOrders()
+        {
+            billDataTable.Rows.Clear();
+            billDataTable.Refresh();
+            foreach (var item in _masterForm.orderList)
+            {
+                billDataTable.Rows.Add(item.Title, item.Quantity +" Adet", item.Price + " TL");
+            }
+        }
+
     }
 }
